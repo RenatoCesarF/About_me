@@ -1,0 +1,73 @@
+h1{
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+h4{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.who{
+  text-align: justify;
+  line-height: 1.5;
+  padding-bottom: 1cm;
+  padding-top: 20px;
+  padding-bottom: 2cm;
+  text-indent: 1cm;
+}
+.redes{
+  text-align: left;
+  line-height: 2;
+  padding-left: 1cm;
+ 
+}
+/*--------Formulario------*/
+.contact{
+    display: flex;
+    justify-content: center;
+  }
+.contato{
+  width: 100%;  
+  max-width: 500px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.field{
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+}
+.textarea{
+  height: 150px;
+}
+.botao{
+  width: 100%;
+  height: 60px;
+  background: #9521d3;
+  border: 0;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  
+}
+/*
+#projetos{
+  background-color: #6d7993
+}
+#posts{
+  background-color: #6d7993
+}
+#sobre{
+  background-color: rgba(41, 41, 41, 0.212);
+}
+*/
