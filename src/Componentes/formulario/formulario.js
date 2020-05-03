@@ -15,7 +15,7 @@ function Formulario(){
                 <div class='contato'>
                     <h2 class='titulo'>Contato</h2>
 
-                    <form action='POST'name="contact" method="POST" data-netlify="true" class='form'>
+                    <form name="contact" method="POST" data-netlify="true" class='form'>
                         <input type="text" name="name" id='name' placeholder="Nome" class='field'/>               
                         <input type="email" name="email"  id='email'placeholder='E-mail' class='field'/>              
                         <textarea  name="message" id='message'placeholder='Digite sua mensagem aqui...' class='text'/>              
