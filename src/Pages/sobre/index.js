@@ -3,21 +3,21 @@ import {Link} from 'react-router-dom';
 
 import './style.css'; 
     
-import Header from '../../Componentes/header'
-import Footer from '../../Componentes/footer'
-import Formulario from '../../Componentes/formulario'
+import Header from '../../Componentes/header/header'
+import Footer from '../../Componentes/footer/footer'
+import Formulario from '../../Componentes/formulario/formulario'
 
 function Sobre() {
 
 
 
     return (
-<div>
+<div class='scroll'>
             
     <Header />
             
-    <section class="back">
-        <section class="post">
+    <div class="back">
+        <section class="center">
             <div class= 'left'>
                 <h1>Quem Sou: </h1>
                 <p class="who">
@@ -33,14 +33,11 @@ function Sobre() {
                 </div>
             </div>   
                 
-        </section>
-        
-        <div>Simbulos de competencias</div>        
-        
-
+            <div>Simbulos de competencias</div>        
         <Formulario/>
-                    
-    </section>
+        </section>
+                        
+    </div>
         
     <Footer/>      
 
@@ -48,4 +45,4 @@ function Sobre() {
     )
 }
 
-export default Sobre
+export default Sobre;

@@ -10,7 +10,7 @@ function Formulario(){
                 <form class='form' method='POST' action='../../email.php'>
                     <input type="text" name='name' placeholder='Nome' class='field'/>            
                     <input type="email" placeholder='E-mail' name='email'  class='field'/>            
-                    <textarea name="message" placeholder='Digite sua mensagem aqui'  class='field'></textarea>
+                    <textarea name="message" placeholder='Digite sua mensagem aqui'  class='text'/>
                     <input type='submit' class='botao'/>            
                 </form>
             </div>            

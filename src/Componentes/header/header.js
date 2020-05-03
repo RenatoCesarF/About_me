@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import back from '../../assents/fundo.png'
 
 
 function Header() {
     return (
-        <div>
-            <div class="cabeçalho">
-                Renato Cesar   
+    <div class='fundo'>
+            <div className='zoom'>
+                <img src={back}></img>
             </div>
 
-
+        <div>
             <ul>
                 <li>
                     <Link className='link' id='sobre' to='/'>Sobre</Link>
@@ -22,6 +23,7 @@ function Header() {
                 </li>
             </ul>
         </div>
+    </div>
     )
 }
 
