@@ -1,4 +1,10 @@
 /*--------Formulario------*/
+.titulo{
+  padding: 40px;
+  padding-bottom: 10px;
+  color: #2D034C;
+}
+
 .contact{
   display: flex;
   justify-content: center;
@@ -44,4 +50,16 @@
 .botao:hover {
   background-color:#7118a1; 
   color: rgb(161, 158, 158);
+}
+
+/*-------Cor e estilo dos placeholders------*/
+::-webkit-input-placeholder {
+  font-size: larger;
+  font: bold;
+  
+}
+
+:-ms-input-placeholder {  
+  font-size: larger;
+  font: bold;  
 }
