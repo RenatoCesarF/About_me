@@ -1,12 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
+//importação da estilização CSS
 import './style.css'; 
     
+//importação dos componentes da pagina
 import Header from '../../Componentes/header/header'
 import Footer from '../../Componentes/footer/footer'
 
-
+//função que retorna a pagina HTML
 function Posts() {
     return (
         <div >
@@ -34,4 +35,5 @@ function Posts() {
     )
 }
 
+//exportação da função que retorna HTML
 export default Posts

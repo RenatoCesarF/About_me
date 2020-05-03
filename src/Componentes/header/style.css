@@ -1,0 +1,58 @@
+
+/*---------------Cabeçalho-----------*/
+.zoom {
+  overflow: hidden;
+}
+
+.zoom img {
+  max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+  -ms-grid-row-align: center;
+    transition: all 0.8s;
+}
+
+.zoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.fundo{
+  background-color: #2D034C;
+}
+
+/*------auto rolagem----*/
+
+/*------MENU-----*/
+li{
+  display: inline;
+  align-items: center;
+  text-align: center;
+}
+li .link:hover {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.274);
+  color: white;
+}
+.link{
+  display: inline-block;
+  text-decoration: none;
+  color:#D5D5D5;
+  padding: 15px;
+  padding-right: 70px;
+  padding-left: 70px;
+  align-items: center;
+  font: bold;
+  font-size: 25px;
+}
+.link:active{
+  background-color: rgba(0, 0, 0, 0.274);
+}
+
+ul{
+  background-color: #2D034C;
+  list-style: none;
+  padding-bottom:5px;
+  margin-bottom: 10px;
+}

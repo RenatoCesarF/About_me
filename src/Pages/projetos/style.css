@@ -1,9 +1,32 @@
-/*#projetos{
-    background-color: rgba(41, 41, 41, 0.212);
+.post{
+  background-color: #d5d5d5;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 1.5cm;
+  margin-left: 80px;
+  margin-right: 80px;
 }
-#posts{
-    background-color: #6d7993
+
+h1{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  margin-top: 0cm;
+  margin-bottom: 30px;
 }
-#sobre{
-    background-color: #6d7993
-}*/
+
+p{
+  text-align: justify;
+  line-height: 2;
+  margin-left: 20px;
+}
+.post-footer{
+  text-align: end;
+  display: block;
+  color: rgb(109, 108, 108);
+  font-size: smaller;
+  top: 100px;
+}
+ 
+
+  
+  
