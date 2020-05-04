@@ -1,0 +1,100 @@
+.titulo{
+  padding: 40px;
+  padding-bottom: 10px;
+  color: #2D034C;
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+.contato{
+  width: 100%;  
+  max-width: 230px;
+}
+.form{
+  flex-direction: column;
+  display: flex;
+}
+
+
+/*------email--------*/
+.email{
+  background: #EA2B22;
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
+  font-weight: 700;
+  margin-top: 16px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  cursor: pointer;
+  color: white;
+}
+.email:hover {
+  background-color: rgb(131, 11, 4); 
+  color: rgb(161, 158, 158);
+  transform: scale(1.1);
+}
+.text_email:hover{
+  filter: brightness(150%);
+}
+
+.simbol_email{
+  padding-right:100px;
+  padding-bottom:5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.simbol_email:hover{
+  filter: brightness(200%);
+  transform: scale(1.1);
+}
+.text_email{
+  display: inline-block;
+  vertical-align: top;
+  color: azure;
+  padding-right: 20px;
+}
+
+/*--------zap------*/
+.text_zap{
+  display: inline-block;
+  vertical-align: top;
+  color: azure;
+  padding-right: 20px;
+}
+.simbol_zap{
+  padding-right:60px;
+    padding-bottom:5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.zap{
+  background: #28A03C;
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
+  font-weight: 700;
+  margin-top: 16px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  cursor: pointer;
+  color: white;
+}
+.zap:hover {
+  background-color:rgb(13, 100, 27); 
+  color: rgb(161, 158, 158);
+  transform: scale(1.1);
+}
+.text_zap:hover{
+  filter: brightness(150%);
+}
+.simbol_zap:hover{
+  filter: brightness(200%);
+  transform: scale(1.1);
+}

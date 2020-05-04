@@ -13,7 +13,7 @@ function Posts() {
         <div >
             <Header/>
             <div className='back'>
-                <section class="center">
+                <section className="center">
                  <h1>O que fiz Esses dias </h1>
                     <div>
                         <p> Nesses ultimos dias tive algumas ideias de implementações que 
@@ -26,7 +26,7 @@ function Posts() {
 
                          </p>
                      </div>
-                     <footer class="post-footer">01/05/2020 </footer>
+                     <footer className="post-footer">01/05/2020 </footer>
                      <hr/>
                 </section>
             </div>

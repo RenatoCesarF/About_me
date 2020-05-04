@@ -6,7 +6,7 @@ import './style.css';
 //importação dos componentes e do conteudo principal da pagina, os projetos.
 import Header from '../../Componentes/header/header'
 import Footer from '../../Componentes/footer/footer'
-import Formulario from '../../Componentes/formulario/formulario'
+import Contato from '../../Componentes/contato/contato'
 import Projeto from '../../Componentes/projeto'
 
 //função que retorna a pagina HTML
@@ -19,7 +19,7 @@ function Projetos() {
                     <Projeto/>
                     <Projeto/>
 
-                    <Formulario/> 
+                    <Contato/> 
                 </section>
             </div>
             <Footer/>

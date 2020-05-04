@@ -8,7 +8,7 @@ import './style.css'
 function Footer() {
     return (
         <div>
-            <div class="footer">
+            <div className="footer">
               Todos os direitos reservador a Renato Cesar, site feito pelo mesmo. Contato: re.fbarcellos@hotmail.com
             </div>
         </div>
