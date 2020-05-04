@@ -20,9 +20,7 @@ function Formulario(){
                         action='POST'
                         data-netlify="true"
                         data-netlify-recaptcha="true"
-                        data-netlify-honeypot="bot-field"
                         name="contact-form"
-                        method="post"
                         class='form' netlify>
                         <input type="text" name="name" id='name' placeholder="Nome" class='field'/>               
                         <input type="email" name="email"  id='email'placeholder='E-mail' class='field'/>              
