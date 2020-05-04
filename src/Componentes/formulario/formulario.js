@@ -15,7 +15,15 @@ function Formulario(){
                 <div class='contato'>
                     <h2 class='titulo'>Contato</h2>
 
-                    <form name="contact" action='POST'method="POST" data-netlify="true" class='form'>
+                    <form
+                        name="contact"
+                        action='POST'
+                        data-netlify="true"
+                        data-netlify-recaptcha="true"
+                        data-netlify-honeypot="bot-field"
+                        name="contact-form"
+                        method="post"
+                        class='form' netlify>
                         <input type="text" name="name" id='name' placeholder="Nome" class='field'/>               
                         <input type="email" name="email"  id='email'placeholder='E-mail' class='field'/>              
                         <textarea  name="message" id='message'placeholder='Digite sua mensagem aqui...' class='text'/>              
@@ -24,7 +32,16 @@ function Formulario(){
                     
                 </div>      
                 <div>
-                <form name="contact" action='POST' data-netlify="true">
+                <form name="contact"
+                        
+                        data-netlify="true"
+                        data-netlify-recaptcha="true"
+    
+                        name="contact-form"
+                        method="post"
+                        class='form' name="contact"
+                        data-netlify-recaptcha="true"
+                        data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
