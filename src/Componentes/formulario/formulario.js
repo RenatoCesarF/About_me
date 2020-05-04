@@ -24,7 +24,7 @@ function Formulario(){
                     
                 </div>      
                 <div>
-                <form name="contact" method="POST"action='POST' data-netlify="true">
+                <form name="contact" action='POST' data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
