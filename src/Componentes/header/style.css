@@ -37,8 +37,11 @@ li .link:hover {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.274);
   color: white;
+  -webkit-transition: all 0.3s;
+  transition-duration: 0.3s;
 }
 .link{
+  -webkit-transition: all 0.3s;
   display: inline-block;
   text-decoration: none;
   color:#D5D5D5;

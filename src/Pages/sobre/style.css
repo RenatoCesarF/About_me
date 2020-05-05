@@ -1,24 +1,104 @@
-h1{
+.comp{
+  height: 85%;
+  width: 85%;
+  padding-top: 1cm;
+}
+
+.im{
   color: rgb(0, 0, 0);
   text-align: left;
+  padding-bottom: 5px;
 }
 h4{
   color: rgb(0, 0, 0);
   text-align: left;
-  padding-bottom: 20px;
 }
 
 .who{
   text-align: justify;
   line-height: 1.5;
-  padding-bottom: 1cm;
-  padding-top: 20px;
-  padding-bottom: 2cm;
   text-indent: 1cm;
 }
-.redes{
+
+/*------------Redes------------------*/
+
+/*------git--------*/
+.git{
+  padding-left: 15px;
+  width: 50%;
+  height: 60px;
+  margin-top: 16px;
   text-align: left;
-  line-height: 2;
-  padding-left: 1cm;
- 
+  font-size: 18px;
+  line-height: 60px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+}
+.simbol_git{
+  padding-bottom:5px;
+  padding-right:10px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transition: all 0.8s;
+}
+
+.text_git{
+  display: inline-block;
+  vertical-align: top;
+  -webkit-transition: all 0.8s;
+}
+.git:hover {
+  transform: scale(1.1);
+}
+.text_git:hover{
+  filter: brightness(150%);
+  animation-duration: 0.8s;
+}
+.simbol_git:hover{
+  filter: brightness(200%);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  animation-duration: 0.8;
+}
+/*--------lin------*/
+.lin{
+  -webkit-transition: all 0.3s;
+  padding-left: 15px;
+  width: 50%;
+  height: 60px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.text_lin{
+  -webkit-transition: all 0.8s;
+  display: inline-block;
+  vertical-align: top;
+}
+.simbol_lin{
+  -webkit-transition: all 0.8s;
+  padding-bottom:5px;
+  padding-right:10px;
+  display: inline-block;
+  color: #0077B5;
+  vertical-align: middle;
+}
+.lin:hover {
+  -webkit-transition: all 0.8s;
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.text_lin:hover{
+  filter: brightness(150%);
+  animation-duration: 0.8s;
+}
+.simbol_lin:hover{
+  filter: brightness(110%);
+  transform: scale(1.1);
+  transition-duration: 0.8s;
+  animation-duration: 0.8s;
+  animation-delay: 1s;
 }

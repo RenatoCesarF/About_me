@@ -1,9 +1,9 @@
 /*---------------Rodapé-----------*/
-div.footer{
-    background-color: #2D034C;
-    color: #B5B5B5;
-    text-align: center;
-    font-size: 16px;
-    padding-top:10px ;
-    padding-bottom:10px ;
-  }
+.footer{
+  background-color: #2D034C;
+  color: #B5B5B5;
+  text-align: center;
+  font-size: 16px;
+  padding-top:10px ;
+  padding-bottom:10px ;
+}
