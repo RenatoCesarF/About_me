@@ -10,25 +10,26 @@ import './style.css'
 //função que retorna o cabeçalho inteiro da pagina mais o menu de navegação
 function Header() {
     return (
-    <div className='fundo'>
-            <div className='zoom'>
-                <img src={back} alt='Renato Cesar'></img>
-            </div>
 
-        <div>
-            <ul>
-                <li>
-                    <Link className='link' id='sobre' to='/'>Sobre</Link>
-                </li>
-                <li>
-                    <Link className='link' id='projetos'to='/projetos'>Projetos</Link>
-                </li>
-                <li>
-                    <Link className='link' id='posts'to='/posts'>Posts</Link>
-                </li>
-            </ul>
+        <div className='fundo'>
+                <div className='zoom'>
+                    <img src={back} alt='Renato Cesar'></img>
+                </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <Link id='link' className='sobre' to='/'>Sobre</Link>
+                    </li>
+                    <li>
+                        <Link id='link' className='projetos' to='/projetos'>Projetos</Link>
+                    </li>
+                    <li>
+                        <Link id='link' className='posts'to='/posts'>Posts</Link>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
     )
 }
 

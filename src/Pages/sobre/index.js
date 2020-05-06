@@ -56,7 +56,7 @@ let redirect_linkedin = () => {
             </div> 
             
             <Competencias className='comp'/>
-            <hr/>
+          <hr />
             <Contato/>
         </section> 
                            

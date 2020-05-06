@@ -1,7 +1,10 @@
+
+/*--------Imagem-----------*/
 .comp{
   height: 85%;
   width: 85%;
   padding-top: 1cm;
+  padding-bottom: 1cm;
 }
 
 .im{
@@ -102,3 +105,6 @@ h4{
   animation-duration: 0.8s;
   animation-delay: 1s;
 }
+
+
+
