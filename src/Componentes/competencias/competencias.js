@@ -1,9 +1,6 @@
 import React from 'react'
 import comp from '../../assents/comp.png'
 
-//importação da estilização da pagina
-import './style.css'
-
 
 //função que retorna a imagem das competencias
 function Competencias() {

@@ -9,7 +9,7 @@ import Footer from '../../Componentes/footer/footer'
 import Contato from '../../Componentes/contato/contato'
 
 
-import Renato from '../../assents/fundo.png'
+import Renato from '../../assents/renato.png'
 import hero from '../../assents/port/bethehero.png'
 import {FaGithubSquare } from 'react-icons/all'
 //função que retorna a pagina HTML
@@ -28,19 +28,19 @@ function Projetos() {
                    
                     <section>
                         <h2 style={{padding:"1cm"}}>Este Blog</h2>
-                        <p>site desenvolvido com React-js para testar minhas abilidades em CSS e com a
+                        <p className='text_project'> Site desenvolvido com React-js para testar minhas abilidades em CSS e com a
                             ferramenta ja mencionada, além de servir como portfólio Online de divulgação do meu 
                             trabalho. Inspirado pelo Lucas Montano que diz ser importante ter um site "About me" 
                             para divulgar seus projetos e trabalhos. Não foi possível, até então, implementar todas 
                             as ideias que tive para o projeto, mas assim que eu aprender mais sobre o framework 
                             voltarei a desenvolver este site.
                         </p>
-                        <img className='imag'src={Renato}alt='imagem projeto'/>
-                            <h4 style={{ verticalAlign: 'top' }} style={{ cursor: 'pointer' }} onClick={redirect_rep}>
-                                <FaGithubSquare
-                                    size='50px'
-                                    style={{ verticalAlign: 'middle', cursor: 'pointer',paddingBottom: "1cm" }}
-                                    onClick={redirect_rep} />
+                        <img className='img_renato'src={Renato}alt='imagem projeto'/>
+                            <h4  className='git_hub_link' onClick={redirect_rep}>
+                            <FaGithubSquare
+                                className='link_github'
+                                size='50px'
+                            />
                             Git Hub
                             </h4>
                         <hr/>
@@ -49,7 +49,7 @@ function Projetos() {
 
                     <section>
                         <h2 style={{padding:"1cm"}}>Be The Hero</h2>
-                        <p>
+                        <p className= 'text_project'>
                             Aplicação feita durante a Semana OmniStak da RockesSeat.
                             Tem como objetivo aproximar ONGs a possíveis doadores.
                              A aplicação funciona com um cadastro, atravez do Site, 
@@ -58,13 +58,12 @@ function Projetos() {
                               cadastrados e contactar a ONG caso deseje, esse contato pode
                                se feito atravez de e-mail ou WhatsApp.
                         </p>
-                        <img className='imag' src={hero} alt='imagem projeto' style={{height:'20%', width:'20%'}}/>
-                            <h4 style={{ verticalAlign: 'top' }} style={{ cursor: 'pointer' }} onClick={redirect_rep_hero}>
-                                <FaGithubSquare
-                                    size='50px'
-                                    style={{ verticalAlign: 'middle', cursor: 'pointer', paddingBottom: "1cm"}}
-                                    onClick={redirect_rep_hero} 
-                                    />
+                        <img className='img_renato' src={hero} alt='imagem projeto' />
+                            <h4  className='git_hub_link' onClick={redirect_rep_hero}>
+                            <FaGithubSquare
+                                className='link_github'
+                                size='50px'
+                            />
                             Git Hub
                             </h4>
                         <hr />

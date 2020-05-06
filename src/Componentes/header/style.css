@@ -1,5 +1,5 @@
 
-/*---------------Cabeçalho-----------*/
+/*---------------Imagem-----------*/
 .zoom {
   overflow: hidden;
 }
@@ -20,7 +20,6 @@
   transform: scale(1.1);
 }
 
-
 .fundo{
   background-color: #2D034C;
 }
@@ -29,6 +28,7 @@
 
 /*------MENU-----*/
 li{
+  flex-grow: 1;
   display: inline;
   align-items: center;
   text-align: center;
@@ -54,6 +54,7 @@ li #link:hover {
 }
 
 ul{
+  flex-grow: 1;
   background-color: #2D034C;
   list-style: none;
   padding-bottom:5px;

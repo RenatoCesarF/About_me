@@ -43,7 +43,7 @@ return (
       <h2 className='titulo'>Contato</h2>
       <form className='form'>
       
-        <div className='email' onClick={Copy}>
+        <div  id='scroll' className='email' onClick={Copy}>
   
           <MdEmail size='30px' className='simbol_email' />
           <h1 className='text_email'>E-mail</h1>

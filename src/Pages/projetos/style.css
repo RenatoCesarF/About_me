@@ -1,10 +1,22 @@
-.imag{
-  height: 30%;
-  width: 30%;
+/*----------Imagens-----*/
+.img_renato{
+  height: 20%;
+  width: 20%;
+  position: static;
+  padding-left: 20cm;
+  padding-top: 1cm;
+  -webkit-transition: all 0.3s;
 }
+.img_renato:hover{
+  transform: scale(1.1);
+  filter: brightness(150%);
+}
+
+/*-----centro-----*/
 .center{
   align-self: flex-end;
   display: inline-block;
+  
 }
 .post{
   background-color: #d5d5d5;
@@ -22,10 +34,12 @@ h1{
   margin-bottom: 30px;
 }
 
-p{
+.text_project{
   text-align: justify;
-  line-height: 2;
+  text-indent: 1cm;
   margin-left: 20px;
+  line-height: 2;
+
 }
 .post-footer{
   text-align: end;
@@ -35,6 +49,28 @@ p{
   top: 100px;
 }
  
-
-  
-  
+/*-----------Links para git hub--------*/
+.git_hub_link{
+  cursor: pointer;
+  vertical-align: top;
+  width: 10%;
+  justify-content: right;
+  -webkit-transition: all 0.3s;
+}
+.link_github{
+  width: 50%;
+  vertical-Align: middle;
+  cursor: pointer;
+  padding-bottom: 1cm; 
+  -webkit-transition: all 0.3s;
+}
+.link_github:hover{
+  filter: brightness(150%);
+  animation-duration: 0.8s;
+}
+.git_hub_link:hover{
+  filter: brightness(200%);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+  animation-duration: 0.8;
+}

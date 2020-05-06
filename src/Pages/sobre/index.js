@@ -14,13 +14,13 @@ import Competencias from '../../Componentes/competencias/competencias'
 //função que retorna a pagina inteira
 function Sobre() {
   //redirecionando para o github
-let redirect_git = () => {
-  window.open('https://github.com/RenatoCesarF')
-}
-//redirecionando para o linkedin
-let redirect_linkedin = () => {
-    window.open('https://www.linkedin.com/in/renato-cesar-ferreira-barcellos-a31534193/')
-}
+  let redirect_git = () => {
+    window.open('https://github.com/RenatoCesarF')
+  }
+  //redirecionando para o linkedin
+  let redirect_linkedin = () => {
+      window.open('https://www.linkedin.com/in/renato-cesar-ferreira-barcellos-a31534193/')
+  }
   return (
     <div>
                 

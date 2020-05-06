@@ -7,7 +7,7 @@ function Post(props) {
         <div>
             <h1>{props.titulo}</h1>
             <div>
-                <p>{props.texto}</p>
+                <p className='texto_do_post'>{props.texto}</p>
             </div>
             <footer className="post-footer">{props.data} </footer>
             <hr className='linha'/>

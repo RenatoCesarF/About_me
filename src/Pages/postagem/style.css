@@ -7,3 +7,11 @@
 .linha{
     padding-top: 5px;
 }
+
+.texto_do_post{
+    text-indent: 1.5;
+    text-align: justify;
+    text-indent: 1cm;
+    margin-left: 20px;
+    line-height: 2;
+}
