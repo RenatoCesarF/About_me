@@ -33,12 +33,14 @@
   line-height: 60px;
   cursor: pointer;
   color: white;
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
 }
 .simbol_email{
   padding-bottom:5px;
   display: inline-block;
   vertical-align: middle;
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
 }
 
@@ -50,6 +52,7 @@
   text-decoration: none;
   padding-right: 20px;
   padding-left: 95px;
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
 }
 .email:hover {
@@ -71,6 +74,7 @@
 
 /*--------zap------*/
 .zap{
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
   background: #28A03C;
   width: 100%;
@@ -86,6 +90,7 @@
   color: white;
 }
 .text_zap{
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
   display: inline-block;
   vertical-align: top;
@@ -93,6 +98,7 @@
   padding-right: 20px;
 }
 .simbol_zap{
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
   padding-right:60px;
   padding-bottom:5px;
@@ -101,6 +107,7 @@
 }
 
 .zap:hover {
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
   background-color:rgb(56, 199, 80); 
   color: rgb(161, 158, 158);

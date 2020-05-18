@@ -1,17 +1,6 @@
 
 /*--------Imagem-----------*/
-.comp{
-  height: 85%;
-  width: 85%;
-  padding-top: 1cm;
-  padding-bottom: 1cm;
-}
 
-.im{
-  color: rgb(0, 0, 0);
-  text-align: left;
-  padding-bottom: 5px;
-}
 h4{
   color: rgb(0, 0, 0);
   text-align: left;
@@ -35,6 +24,7 @@ h4{
   font-size: 18px;
   line-height: 60px;
   cursor: pointer;
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
 }
 .simbol_git{
@@ -42,12 +32,14 @@ h4{
   padding-right:10px;
   display: inline-block;
   vertical-align: middle;
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
 }
 
 .text_git{
   display: inline-block;
   vertical-align: top;
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
 }
 .git:hover {
@@ -65,6 +57,7 @@ h4{
 }
 /*--------lin------*/
 .lin{
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
   padding-left: 15px;
   width: 50%;
@@ -76,11 +69,13 @@ h4{
   cursor: pointer;
 }
 .text_lin{
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
   display: inline-block;
   vertical-align: top;
 }
 .simbol_lin{
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
   padding-bottom:5px;
   padding-right:10px;
@@ -89,6 +84,7 @@ h4{
   vertical-align: middle;
 }
 .lin:hover {
+  transition: ease-in-out;
   -webkit-transition: all 0.8s;
   transform: scale(1.1);
   transition-duration: 0.2s;

@@ -37,10 +37,12 @@ li #link:hover {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.274);
   color: white;
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
   transition-duration: 0.3s;
 }
 #link{
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
   display: inline-block;
   text-decoration: none;

@@ -5,6 +5,7 @@
   position: static;
   padding-left: 20cm;
   padding-top: 1cm;
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
 }
 .img_renato:hover{
@@ -55,13 +56,15 @@ h1{
   vertical-align: top;
   width: 10%;
   justify-content: right;
+  transition: ease-in-out;
   -webkit-transition: all 0.3s;
 }
 .link_github{
   width: 50%;
   vertical-Align: middle;
   cursor: pointer;
-  padding-bottom: 1cm; 
+  padding-bottom: 1cm;
+  transition: ease-in-out; 
   -webkit-transition: all 0.3s;
 }
 .link_github:hover{
