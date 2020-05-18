@@ -29,7 +29,7 @@ function Contato() {
     document.execCommand('copy');
     //remove o elemento
     document.body.removeChild(inputTest);
-    alert("Email Copiado!")
+    alert("Email Copiado. Caso você tenha uma ferramenta para envio de e-mails ela sera aberta automaticamente.")
   }
   //função de redirecionamento para meu numero do whatsapp
   let redirect_to_whatsapp = () => {
@@ -45,12 +45,11 @@ return (
       
         <div  id='scroll' className='email' onClick={Copy}>
   
-          <MdEmail size='30px' className='simbol_email' />
-          <h1 className='text_email'>E-mail</h1>
-      
-        </div>
+          <MdEmail size='30px' className='simbol_email'/>
+          <a className='text_email' href="mailto:re.fbarcellos@hotmail.com" > E-mail</a>
+        </div> 
         
-  
+      
         <div className='zap' onClick={redirect_to_whatsapp}>
 
           <RiWhatsappLine size='30px' className='simbol_zap' />
