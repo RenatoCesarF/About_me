@@ -3,20 +3,38 @@
 # :computer:Projeto
 <p>Inspirado por alguns vídeos do Lucas Montano do canal Lucas Montano e inspirado para trabalhar como freelancer em algo decidi usar o que estava aprendendo de React no site da Scrimba para desenvolver um site sobre mim como forma de divulgação de meus trabalhos e     projetos de agora e futuros. Foi usado muito CSS para Fazer as animações e transições que coloquei em alguns componentes do site.    Infelizmente não foi possível implementar tudo que tinha em mente, por isso estou voltando a estudar sobre o frameWork para depois conseguir implementar tudo que desejo para esse site.</p>
 
+## :arrow_forward: Sobre o processo de desenvolvimento:
 
- Foi utilizado, além de React-Js, o servidor da netlify para manter o site online.
+#### [![Sobre o projeto - About me](https://res.cloudinary.com/marcomontalbano/image/upload/v1591382071/video_to_markdown/images/youtube--aXlfmVeJHFs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=aXlfmVeJHFs "Sobre o projeto - About me")
+#
 
-## Acesse em: https://renatocesar.netlify.app/
+
+ Foi utilizado o servidor da Netlify para manter o site online.
+##  🖱️ Acesse em: [![Netlify Status](https://api.netlify.com/api/v1/badges/545bbce5-8f34-4834-9e16-685a9990c987/deploy-status)](https://renatocesar.netlify.app/)
+
+
+
+### :blue_book: Bibliotecas
+> React-js <br/>
+
+> React-router-dom <br/>
+
+> React icons 
+
 
 # :newspaper:Paginas	
 ## Cabeçalho
-![nnnew](https://user-images.githubusercontent.com/62253156/81237256-2a5c9680-8fcd-11ea-91aa-666b7af5981b.png)
+![nnnew](https://user-images.githubusercontent.com/62253156/81237256-2a5c9680-8fcd-11ea-91aa-666b7af5981b.png )
 
 ## Pagina "Sobre"
 ![cabeçalho](https://user-images.githubusercontent.com/62253156/81237083-a9050400-8fcc-11ea-842a-7c00a54f68b0.png)
 
 ## Pagina "Projetos"
 ![projetos](https://user-images.githubusercontent.com/62253156/81237283-3ea09380-8fcd-11ea-97ef-ae9bae021303.png)
+
+###	:crystal_ball: Implementações futuras
+- Auto Scroll no cabeçalho ao trocar de páginas
+- Botão de download do meu Curriculo / Resume 
 
 
 ## Segue abaixo o "READ ME" gerado automaticamente pelo React
