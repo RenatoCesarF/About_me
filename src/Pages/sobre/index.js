@@ -19,7 +19,7 @@ function Sobre() {
   }
   //redirecionando para o linkedin
   let redirect_linkedin = () => {
-      window.open('https://www.linkedin.com/in/renato-cesar-ferreira-barcellos-a31534193/')
+      window.open('https://www.linkedin.com/in/renato-cesar-a31534193/')
   }
   return (
     <div>
