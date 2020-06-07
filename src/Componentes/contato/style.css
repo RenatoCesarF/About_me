@@ -60,11 +60,11 @@
   color: rgb(161, 158, 158);
   transform: scale(1.1);
 }
-.text_email:hover{
+.email:hover .text_email{
   filter: brightness(150%);
   animation-duration: 0.8s;
 }
-.simbol_email:hover{
+.email:hover .simbol_email{
   filter: brightness(200%);
   transform: scale(1.1);
   transition-duration: 0.5s;
@@ -115,11 +115,11 @@
   transition-duration: 0.2s;
 }
 
-.text_zap:hover{
+.zap:hover .text_zap{
   filter: brightness(150%);
   animation-duration: 0.8s;
 }
-.simbol_zap:hover{
+.zap:hover .simbol_zap{
   filter: brightness(200%);
   transform: scale(1.1);
   transition-duration: 0.8s;
