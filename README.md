@@ -10,7 +10,7 @@
 
 
  Foi utilizado o servidor da Netlify para manter o site online.
-##  🖱️ Acesse em: [![Netlify Status](https://api.netlify.com/api/v1/badges/545bbce5-8f34-4834-9e16-685a9990c987/deploy-status)](https://renatocesar.netlify.app/)
+##  🖱️ Acesse em: https://renatocesar.netlify.app/
 
 
 
