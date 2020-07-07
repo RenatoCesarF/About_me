@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {FaGithubSquare } from 'react-icons/fa'
+import {FaGithubSquare, FaYoutube } from 'react-icons/fa'
 
 
 function Projeto_desc(props) {
@@ -11,22 +11,27 @@ function Projeto_desc(props) {
 
     return (
         <section>
-            <h2 style={{ padding: "1cm" }} >{props.titulo} </h2>
+            <h2 style={{paddingBottom:'20px'}}>{props.titulo} </h2>
             
             <p className='text_project'> {props.texto}</p>
             
             <img className='img_renato' src={props.image} alt='imagem projeto' style={{width: props.tamanho, height: props.tamanho}}/>
-            <h4 className='git_hub_link'
-                onClick={() => redirect_rep(props.link_to)}
+            <div className='links'
+                
             >
-                    <FaGithubSquare
-                        className='link_github'
-                        size='50px'
-                    />
-                Git Hub
-            </h4>
-
-            <hr/>
+                <FaGithubSquare
+                    className='link_github'
+                    size='60px'
+                    onClick={() => redirect_rep(props.link_git)}
+                />
+        
+                <FaYoutube
+                    size='50px'
+                    className='link_yt'
+                    onClick={() => redirect_rep(props.link_yt)}
+                />
+            </div>
+            < hr className='divisoria'/>
         </section>
     )
 }

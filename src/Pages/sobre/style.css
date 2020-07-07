@@ -14,7 +14,7 @@ h4{
 
 /*------------Redes------------------*/
 
-/*------git--------*/
+/*------Simbulo e texto para redirecionamento para minha página do github--------*/
 .git{
   padding-left: 15px;
   width: 50%;
@@ -55,7 +55,7 @@ h4{
   transition-duration: 0.5s;
   animation-duration: 0.8;
 }
-/*--------lin------*/
+/*--------Simbulo e texto para redrecionamento para o linkedIn------*/
 .lin{
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
@@ -68,12 +68,7 @@ h4{
   line-height: 60px;
   cursor: pointer;
 }
-.text_lin{
-  transition: ease-in-out;
-  -webkit-transition: all 0.8s;
-  display: inline-block;
-  vertical-align: top;
-}
+
 .simbol_lin{
   transition: ease-in-out;
   -webkit-transition: all 0.8s;
@@ -83,13 +78,19 @@ h4{
   color: #0077B5;
   vertical-align: middle;
 }
+.text_lin{
+  transition: ease-in-out;
+  -webkit-transition: all 0.8s;
+  display: inline-block;
+  vertical-align: top;
+}
+
 .lin:hover {
   transition: ease-in-out;
   -webkit-transition: all 0.8s;
   transform: scale(1.1);
   transition-duration: 0.2s;
 }
-
 .text_lin:hover{
   filter: brightness(150%);
   animation-duration: 0.8s;
@@ -104,3 +105,57 @@ h4{
 
 
 
+/* ---------Simbulo,texto e div para download do meu currículo------*/
+
+.curr{
+  transition: ease-in-out;
+  -webkit-transition: all 0.3s;
+  margin: 20px;
+  margin-left: 15px;
+  padding-left: 10px;
+  width: 55%;
+  height: 35px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 18px;
+ 
+  cursor: pointer;
+  border-radius: 4px;
+
+  background-color: #008686;
+}
+.simbol_down{
+  transition: ease-in-out;
+  -webkit-transition: all 0.3s;
+  padding-right:13px;
+  display: inline-block;
+  color: #fff5f5d8;
+  vertical-align: -9px;
+}
+.curriculo{
+  transition: ease-in-out;
+  -webkit-transition: all 0.3s;
+  display: inline-block;
+  vertical-align: -7px;
+  color: #fff5f5d8;
+}
+
+
+.curr:hover {
+  transition: ease-in-out;
+  -webkit-transition: all 0.3s;
+  color: rgb(161, 158, 158);
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+}
+
+.curr:hover .curriculo{
+  filter: brightness(120%);
+  animation-duration: 0.3s;
+}
+.curr:hover .simbol_down{
+  filter: brightness(120%);
+  transform: scale(1.1);
+  transition-duration: 0.3s;
+  animation-duration: 0.3s;
+}

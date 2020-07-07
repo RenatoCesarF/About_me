@@ -33,9 +33,11 @@ function Projetos() {
                                 pause e play do audio metronomo, visualização do grafico do microfone e assim por diante.
                                 Veja mais sobre o projeto no Read Me do github.'
                         image={loopyng}
-                        link_to='https://github.com/RenatoCesarF/Loopyng'
+                        link_git='https://github.com/RenatoCesarF/Loopyng'
+                        link_yt= 'https://www.youtube.com/watch?v=MOxTDfwdxCw&t=75s'
                         tamanho = '30%'
                    />
+
                     <Projeto_desc
                         titulo='Este Blog'
                         texto=' Site desenvolvido com React-js para testar minhas abilidades em CSS e com a
@@ -45,24 +47,22 @@ function Projetos() {
                                 as ideias que tive para o projeto, mas assim que eu aprender mais sobre o framework 
                                 voltarei a desenvolver este site. Veja mais sobre no repositório do github.'
                         image={Renato}
-                        link_to = 'https://github.com/RenatoCesarF/About_me'
+                        link_git = 'https://github.com/RenatoCesarF/About_me'
+                        link_yt= 'https://www.youtube.com/watch?v=aXlfmVeJHFs&t=8s'
                     />  
 
                     <Projeto_desc
                         titulo='Be The Hero'
-                        texto= "Aplicação feita durante a Semana OmniStak da RockesSeat.
-                                Tem como objetivo aproximar ONGs a possíveis doadores.
-                                A aplicação funciona com um cadastro, atravez do Site, 
-                                por parte da ONG de um dos casos que a mesma necessita de doação. 
-                                A pessoa que tiver o aplicativo pode visualizar esses casos
-                                cadastrados e contactar a ONG caso deseje, esse contato pode
-                                se feito atravez de e-mail ou WhatsApp. Veja mais no repositório do github "
+                        texto='Aplicação feita durante a Semana OmniStak da RockesSeat.Tem como objetivo aproximar ONGs a possíveis doadores. A aplicação funciona com um cadastro, atravez do Site, por parte da ONG de um dos casos que a mesma necessita de doação. A pessoa que tiver o aplicativo pode visualizar esses casos
+                        cadastrados e contactar a ONG caso deseje, esse contato pode
+                        se feito atravez de e-mail ou WhatsApp. Veja mais no repositório do github'
                         image={hero}
-                        link_to= 'https://github.com/RenatoCesarF/be-the-hero'
+                        link_git= 'https://github.com/RenatoCesarF/be-the-hero'
                     />
                    
                    
 
+                    
                     <Contato/> 
                 </section>
             </div>

@@ -2,28 +2,26 @@
 .img_renato{
   height: 20%;
   width: 20%;
-  position: static;
-  padding-left: 20cm;
-  padding-top: 1cm;
+  display: flex;
+  position: relative;
+  padding-top: 1%;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
+  left: 70%;
 }
 .img_renato:hover{
   transform: scale(1.1);
-  filter: brightness(150%);
+  filter: brightness(130%);
 }
 
 /*-----centro-----*/
 .center{
   align-self: flex-end;
-  display: inline-block;
-  
+  display: inline-block;  
 }
 .post{
   background-color: #d5d5d5;
   border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 1.5cm;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -31,14 +29,18 @@
 h1{
   color: rgb(0, 0, 0);
   text-align: left;
-  margin-top: 0cm;
-  margin-bottom: 30px;
+  margin-top: 0px;
 }
-
+.divisoria{
+  position: relative;
+  display:flex;
+  bottom: 40px;
+}
 .text_project{
   text-align: justify;
-  text-indent: 1cm;
-  margin-left: 20px;
+  text-indent: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
   line-height: 2;
 
 }
@@ -47,33 +49,44 @@ h1{
   display: block;
   color: rgb(109, 108, 108);
   font-size: smaller;
-  top: 100px;
 }
  
 /*-----------Links para git hub--------*/
-.git_hub_link{
-  cursor: pointer;
-  vertical-align: top;
+.links{
+  position: relative;
+  bottom: 10vh;
   width: 10%;
-  justify-content: right;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
+  display:flex;
+  margin-left: 30px;
 }
+
 .link_github{
-  width: 50%;
   vertical-Align: middle;
   cursor: pointer;
-  padding-bottom: 1cm;
   transition: ease-in-out; 
   -webkit-transition: all 0.3s;
 }
 .link_github:hover{
   filter: brightness(150%);
-  animation-duration: 0.8s;
+  animation-duration: 0.2s;
+  transform: scale(1.2);
 }
-.git_hub_link:hover{
-  filter: brightness(200%);
-  transform: scale(1.1);
-  transition-duration: 0.5s;
-  animation-duration: 0.8;
+
+
+/*Link pro vídeo do youtube*/
+.link_yt{
+  margin-left: 20px;
+  margin-top: 5px;
+  width: 50%;
+  cursor: pointer;
+  transition: ease-in-out; 
+  -webkit-transition: all 0.2s;
+  color:#F04732;
+}
+.link_yt:hover{
+  filter: brightness(150%);
+  animation-duration: 0.2s;
+  transform: scale(1.2);
 }

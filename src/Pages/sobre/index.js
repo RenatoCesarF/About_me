@@ -1,5 +1,5 @@
 import React from 'react'
-import {GrLinkedin,FaGithubSquare } from 'react-icons/all'
+import {GrLinkedin,FaGithubSquare,FaFileDownload } from 'react-icons/all'
 
 //importação da estilização
 import './style.css'; 
@@ -21,6 +21,10 @@ function Sobre() {
   let redirect_linkedin = () => {
       window.open('https://www.linkedin.com/in/renato-cesar-a31534193/')
   }
+  //redirecionando pro drive com meu curriculo
+  let redirect_drive = () => {
+    window.open('https://drive.google.com/file/d/1C9sViteK0KIgp2oVw0undcH5B-9_pTtJ/view?usp=sharing')
+}
   return (
     <div>
                 
@@ -51,7 +55,14 @@ function Sobre() {
                 <div className='lin' onClick={redirect_linkedin}>
                       <GrLinkedin size='30px' className='simbol_lin' />
                         <h4 className='text_lin'>Linkedin</h4>
-                      </div>
+                </div>
+
+                <div className='curr' onClick={redirect_drive}>
+                      <FaFileDownload size='20px' className='simbol_down' />
+                        <h4 className='curriculo'>Currículo</h4>
+                </div>
+
+
               </form>
             </div> 
             
