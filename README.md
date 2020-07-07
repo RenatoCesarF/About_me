@@ -34,7 +34,6 @@
 
 ###	:crystal_ball: Implementações futuras
 - Auto Scroll no cabeçalho ao trocar de páginas
-- Botão de download do meu Curriculo / Resume 
 
 
 ## Segue abaixo o "READ ME" gerado automaticamente pelo React
