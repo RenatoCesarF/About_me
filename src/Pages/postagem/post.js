@@ -5,7 +5,7 @@ import React from 'react'
 function Post(props) {
     return (
         <div>
-            <h1>{props.titulo}</h1>
+            <h1 className='titulo_post'>{props.titulo}</h1>
             <div>
                 <p className='texto_do_post'>{props.texto}</p>
             </div>
