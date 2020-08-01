@@ -1,4 +1,26 @@
-![GITGIT](https://user-images.githubusercontent.com/62253156/81236281-dc469380-8fca-11ea-93ca-fe7e3081fca6.png)
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/62253156/81236281-dc469380-8fca-11ea-93ca-fe7e3081fca6.png" />
+
+  <h2 align="center">💻My programer portfolio💻 </h2>
+  
+  <p align="center">
+    <img src="https://img.shields.io/badge/%20💜-Purple-purple?style=for-the-badge" align="center"/>
+  </p>
+</p>
+
+<hr/>
+
+<p  align="center">
+  <a href="https://gitmoji.carloscuesta.me">
+    <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat" alt="Gitmoji">
+  </a>
+  
+  <img src="https://badgen.net/github/commits/RenatoCesarF/About_me"/>
+  <img src="https://api.netlify.com/api/v1/badges/335575ec-f17e-4231-a063-d01b088ae907/deploy-status"/>
+ 
+ </p>
+
 
 # :computer:Project
 <p>Inspirado por alguns vídeos do Lucas Montano do canal Lucas Montano e inspirado para trabalhar como freelancer em algo decidi usar o que estava aprendendo de React no site da Scrimba para desenvolver um site sobre mim como forma de divulgação de meus trabalhos e     projetos de agora e futuros. Foi usado muito CSS para Fazer as animações e transições que coloquei em alguns componentes do site.    Infelizmente não foi possível implementar tudo que tinha em mente, por isso estou voltando a estudar sobre o frameWork para depois conseguir implementar tudo que desejo para esse site.</p>
@@ -11,13 +33,9 @@ Inspired by videos from the Lucas Montano channel I decided to use what I was le
 #### [![Sobre o projeto - About me](https://res.cloudinary.com/marcomontalbano/image/upload/v1591382071/video_to_markdown/images/youtube--aXlfmVeJHFs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=aXlfmVeJHFs "Sobre o projeto - About me")
 #
 
-
-
 ##  🖱️ Access in : https://renatocesar.netlify.app/
 
-
-
-### :blue_book: Bibliotecas
+### :blue_book: Libraries:
 > React-js <br/>
 
 > React-router-dom <br/>
@@ -37,3 +55,5 @@ Inspired by videos from the Lucas Montano channel I decided to use what I was le
 
 ###	:crystal_ball: future implementations
 - Auto Scroll on header
+
+
