@@ -23,9 +23,7 @@
 
 
 # :computer:Project
-<p>Inspirado por alguns vídeos do Lucas Montano do canal Lucas Montano e inspirado para trabalhar como freelancer em algo decidi usar o que estava aprendendo de React no site da Scrimba para desenvolver um site sobre mim como forma de divulgação de meus trabalhos e     projetos de agora e futuros. Foi usado muito CSS para Fazer as animações e transições que coloquei em alguns componentes do site.    Infelizmente não foi possível implementar tudo que tinha em mente, por isso estou voltando a estudar sobre o frameWork para depois conseguir implementar tudo que desejo para esse site.</p>
-
-Inspired by videos from the Lucas Montano channel I decided to use what I was learning about React on the Scrimba platform, to develop a website about me, as a way of publicizing my current and future works and projects . A lot of CSS was used to make the animations and transitions that I put in some components of the site. Unfortunately it was not possible to implement everything I had in mind, so I am going back to studying the frameWork, and then, be able to implement everything I want for this site
+Inspired by videos from the Lucas Montano channel, I decided to use what I was learning about React on Scrimba platform, to develop a website about me, as a way of publicizing my current and future works and projects . A lot of CSS was used to make the animations and transitions that I put in some components of the site. Unfortunately it was not possible to implement everything I had in mind, so I am going back to studying the frameWork, and then, be able to implement everything I want for this site
 
 
 ## :arrow_forward: A video about the development process:
