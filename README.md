@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/62253156/81236281-dc469380-8fca-11ea-93ca-fe7e3081fca6.png" />
 
-  <h2 align="center">💻My programer portfolio💻 </h2>
+  <h3 align="center">💻My programer portfolio💻 </h3>
   
   <p align="center">
     <img src="https://img.shields.io/badge/%20💜-Purple-purple?style=for-the-badge" align="center"/>
