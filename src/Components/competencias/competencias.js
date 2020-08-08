@@ -1,12 +1,14 @@
 import React from 'react'
 import comp from '../../assents/comp.png'
 import './style.css'
-//importação dos icons
-import {FaPython, FaReact,FaCuttlefish } from 'react-icons/fa'
-import {DiDatabase } from 'react-icons/di'
-//função que retorna a imagem das competencias
-function Competencias() {
 
+//Importing the icons 
+import {FaPython, FaReact,FaJava } from 'react-icons/fa'
+import { DiDatabase } from 'react-icons/di'
+
+//TODO: change the C compety by the java
+
+function Competencias() {
   return (
   
     <div style={{display:"inline" }} >
@@ -48,5 +50,4 @@ function Competencias() {
   );
 }
 
-//exportação da função componente que retorna o formulário
 export default Competencias;

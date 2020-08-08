@@ -1,5 +1,4 @@
-/*função que sera responsável por pegar oque eu for postar e passar isso para a pagina
-de posts*/
+//this component is used to create a new post at Post page
 import React from 'react'
 
 function Post(props) {

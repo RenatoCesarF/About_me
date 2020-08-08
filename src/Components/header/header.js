@@ -1,8 +1,8 @@
 import React from 'react'
-//biblioteca utilizada para alternar entre as paginas do site
+
 import { Link } from 'react-router-dom';
 
-//importação da imagem do cabeçalho e da estilização CSS
+//Importing the background image of the Header
 import back from '../../assents/fundo.png'
 import './style.css'
 

@@ -1,14 +1,13 @@
 import React from 'react'
 
-//importação da estilização CSS
 import './style.css'; 
     
-//importação dos componentes da pagina
+//Importing all the components
 import Header from '../../Componentes/header/header'
 import Footer from '../../Componentes/footer/footer'
 import Post from './post'
 
-//função que retorna a pagina HTML
+//Function that return the HTML of the page Posts
 function Posts() {
     return (
         <div>

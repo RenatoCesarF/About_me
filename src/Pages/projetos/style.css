@@ -1,4 +1,4 @@
-/*----------Imagens-----*/
+/*----------Images-----*/
 .img_renato{
   height: 20%;
   width: 20%;
@@ -14,7 +14,7 @@
   filter: brightness(130%);
 }
 
-/*-----centro-----*/
+/*-----center-----*/
 .center{
   align-self: flex-end;
   display: inline-block;  
@@ -51,7 +51,7 @@ h1{
   font-size: smaller;
 }
  
-/*-----------Links para git hub--------*/
+/*-----------Links to git hub--------*/
 .links{
   position: relative;
   bottom: 10vh;
@@ -75,7 +75,7 @@ h1{
 }
 
 
-/*Link pro vídeo do youtube*/
+/*Link to youtube*/
 .link_yt{
   margin-left: 20px;
   margin-top: 5px;

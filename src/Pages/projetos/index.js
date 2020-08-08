@@ -1,20 +1,19 @@
 import React from 'react'
 
-//importação da estilização
 import './style.css'; 
 
-//importação dos componentes e do conteudo principal da pagina, os projetos.
+//Importing the components
 import Header from '../../Componentes/header/header'
 import Footer from '../../Componentes/footer/footer'
 import Contato from '../../Componentes/contato/contato'
 import Projeto_desc from './projeto_desc'
 
-//importação das fotos dos projetos 
+//Importing the photos
 import Renato from '../../assents/renato.png'
 import hero from '../../assents/port/bethehero.png'
 import loopyng from '../../assents/port/loopyng.png'
 
-//função que retorna a pagina HTML
+
 function Projetos() {
 
 

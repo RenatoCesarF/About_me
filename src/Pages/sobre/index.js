@@ -1,27 +1,25 @@
 import React from 'react'
 import {GrLinkedin,FaGithubSquare,FaFileDownload } from 'react-icons/all'
 
-//importação da estilização
 import './style.css'; 
     
-//importação dos componentes da aplicação
+//Importing the components
 import Header from '../../Componentes/header/header'
 import Footer from '../../Componentes/footer/footer'
 import Contato from '../../Componentes/contato/contato'
 import Competencias from '../../Componentes/competencias/competencias'
 
 
-//função que retorna a pagina inteira
 function Sobre() {
-  //redirecionando para o github
+  //Redirection to git repo function 
   let redirect_git = () => {
     window.open('https://github.com/RenatoCesarF')
   }
-  //redirecionando para o linkedin
+  //Redicection to my linkedin
   let redirect_linkedin = () => {
       window.open('https://www.linkedin.com/in/renato-cesar-a31534193/')
   }
-  //redirecionando pro drive com meu curriculo
+  //Redirection to my Resume in google drive
   let redirect_drive = () => {
     window.open('https://drive.google.com/file/d/1C9sViteK0KIgp2oVw0undcH5B-9_pTtJ/view?usp=sharing')
 }
