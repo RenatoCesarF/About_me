@@ -4,10 +4,10 @@ import {GrLinkedin,FaGithubSquare,FaFileDownload } from 'react-icons/all'
 import './style.css'; 
     
 //Importing the components
-import Header from '../../Componentes/header/header'
-import Footer from '../../Componentes/footer/footer'
-import Contato from '../../Componentes/contato/contato'
-import Competencias from '../../Componentes/competencias/competencias'
+import Header from '../../Components/header/header'
+import Footer from '../../Components/footer/footer'
+import Contato from '../../Components/contato/contato'
+import Competencias from '../../Components/competencias/competencias'
 
 
 function Sobre() {

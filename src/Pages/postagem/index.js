@@ -3,8 +3,8 @@ import React from 'react'
 import './style.css'; 
     
 //Importing all the components
-import Header from '../../Componentes/header/header'
-import Footer from '../../Componentes/footer/footer'
+import Header from '../../Components/header/header'
+import Footer from '../../Components/footer/footer'
 import Post from './post'
 
 //Function that return the HTML of the page Posts

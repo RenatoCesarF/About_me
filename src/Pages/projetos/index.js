@@ -3,15 +3,15 @@ import React from 'react'
 import './style.css'; 
 
 //Importing the components
-import Header from '../../Componentes/header/header'
-import Footer from '../../Componentes/footer/footer'
-import Contato from '../../Componentes/contato/contato'
+import Header from '../../Components/header/header'
+import Footer from '../../Components/footer/footer'
+import Contato from '../../Components/contato/contato'
 import Projeto_desc from './projeto_desc'
 
 //Importing the photos
-import Renato from '../../assents/renato.png'
-import hero from '../../assents/port/bethehero.png'
-import loopyng from '../../assents/port/loopyng.png'
+import Renato from '../../assets/renato.png'
+import hero from '../../assets/port/bethehero.png'
+import loopyng from '../../assets/port/loopyng.png'
 
 
 function Projetos() {

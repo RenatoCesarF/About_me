@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 //Importing the background image of the Header
-import back from '../../assents/fundo.png'
+import back from '../../assets/fundo.png'
 import './style.css'
 
 //função que retorna o cabeçalho inteiro da pagina mais o menu de navegação
