@@ -1,12 +1,10 @@
 import React from 'react'
-import comp from '../../assents/comp.png'
-import './style.css'
 
 //Importing the icons 
 import {FaPython, FaReact,FaJava } from 'react-icons/fa'
 import { DiDatabase } from 'react-icons/di'
 
-//TODO: change the C compety by the java
+import './style.css'
 
 function Competencias() {
   return (
@@ -38,12 +36,12 @@ function Competencias() {
       </div>
 
 
-      <div className='C_area_detect'>
-          <img  className='C_img'id='C_img' src={comp}/>
-          <div className='content' id='C_text'>
-            <h2>C</h2>
-          <p>Tive meu primeiro contato com C durante o programa PIBIC-EM, e também usamos na faculdade. É uma linguagem antiga, e mais complexa (comparado com Python), com mais regras de semântica e assim por diante. Mesmo assim ainda é uma das linguagens mais usadas nos sistemas atuais. E, acredito que, para sistemas completos e que necessitam de mais comlexidade de desenvolvimento, é melhor optar por C</p>
-          </div>
+      <div className='area_detect'>
+        <FaJava className='one_comp' size='150px' />
+        <div className='content' id='java_text'>
+          <h2>Java</h2>
+          <p> É incrivel como mesmo sendo uma das linguagens de alto nivel mais antigas continua sendo usada até hoje, acredito que isso ocorre por seu grande pode de criar sistemas complexos muito bem, o sistema de organização por classes, o sistema de hierarquia, polimorfismo e assim por diante é deveras favorável na hora de criar um sistema como de um banco ou até mesmo de um jogo.</p>
+        </div>
       </div>
    
     </div>

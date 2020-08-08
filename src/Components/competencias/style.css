@@ -10,6 +10,10 @@
     transition: box-shadow ease-in-out;
     -webkit-transition: all 0.4s;
 }
+.one_comp:hover{
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.794);
+    transform: scale(1.1);
+}
 
 /* 
     Essa classe foi separada por que o simbulo de banco de dados
@@ -30,28 +34,26 @@
     box-shadow: 0 7px 15px rgba(0, 0, 0, 0.794);
     transform: scale(1.1);
 }
-.one_comp:hover{
-    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.794);
-    transform: scale(1.1);
-}
+
 
 /*Balões de Texto*/
 .area_detect{
     margin-left: 30px;
-    margin-bottom: 1cm;
+    margin-bottom: 20px;
     position: static;
     size: 10%;
     border-radius: 50%;
     display: inline-table;
     color: white;
 }
+
 /*Simbulo do python, animação + localização*/
 #python_text{
     box-sizing: border-box;
     border-radius: 4px;
     position: absolute;
-    bottom: -310px;
-    right: 610px;
+    bottom: -370px;
+    right: 600px;
     width: 400px;
     background: #3C0067;
     padding: 20px;
@@ -81,10 +83,9 @@
     box-sizing: border-box;
     border-radius: 4px;
     position: absolute;
-    bottom: -310px;
-    right: 400px;
+    bottom: -380px;
     width: 400px;
-    left: 560px;
+    left: 575px;
     background: #3C0067;
     padding: 20px;
     visibility: hidden;
@@ -108,13 +109,45 @@
     transform: translateX(-50%) translateY(0px);
 }
 
+/*Java symble*/
+#java_text{
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -380px;
+    width: 400px;
+    right: -50px;
+    background: #3C0067;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateX(-50%) translateY(-50px);
+}
+#java_text:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 194px;
+    bottom: -15px;
+    background: #3C0067;
+    transform: rotate(45deg);
+}
+.area_detect:hover #java_text{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0px);
+}
+
+
 /*Simbulo Banco de dados, animação + localização*/
 #bd_text{
     box-sizing: border-box;
     border-radius: 4px;
     position: absolute;
-    bottom: -310px;
-    right: 180px;
+    bottom: -380px;
+    right: 165px;
     width: 400px;
     background: #3C0067;
     padding: 20px;
@@ -139,62 +172,3 @@
     transform: translateX(-50%) translateY(0px);
 }
 
-
-
-
-
-/* 
-    O React-icons ainda não tem disponível um simbuo da linguagem 
-    de programação C, por causa disso fiz seu iconi usando uma imagem 
-    e tive de fazer todas as coisas um pouco diferente para esse simbulo em questão
-*/
-.C_img{
-    width: 80%;
-    height: 80%;
-    transition: ease-in-out;
-    -webkit-transition: all 0.4s;
-}
-.C_img:hover{
-    transform: scale(1.1);
-}
-
-#C_text{
-    box-sizing: border-box;
-    border-radius: 4px;
-    position: absolute;
-    bottom: -310px;
-    right: -45px;
-    width: 400px;
-    background: #3C0067;
-    padding: 20px;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s; 
-    transform: translateX(-50%) translateY(-50px);
-}
-#C_text:before{
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 188px;
-    bottom: -15px;
-    background: #3C0067;
-    transform: rotate(45deg);
-}
-.C_area_detect{
-
-    padding: 0;
-    margin-left: 10px;
-    margin-bottom: 1cm;
-    position: static;
-    border-radius: 50%;
-    display: inline-table;
-    color: white;
-}
-
-.C_area_detect:hover #C_text{
-    visibility: visible;
-    opacity: 1;
-    transform: translateX(-50%) translateY(0px);
-}
