@@ -17,8 +17,10 @@
   </a>
   
   <img src="https://badgen.net/github/commits/RenatoCesarF/About_me"/>
-  <img src="https://api.netlify.com/api/v1/badges/335575ec-f17e-4231-a063-d01b088ae907/deploy-status"/>
- 
+  
+  <a href="https://renatocesar.netlify.app/">
+    <img src="https://api.netlify.com/api/v1/badges/335575ec-f17e-4231-a063-d01b088ae907/deploy-status"/>
+  </a>
  </p>
 
 
