@@ -12,15 +12,18 @@
 <hr/>
 
 <p  align="center">
+   <img src="https://badgen.net/github/commits/RenatoCesarF/About_me"/>
+  
+  <img src="https://img.shields.io/badge/React-JS-blue?style=flat&logo=react"/>
+   
   <a href="https://gitmoji.carloscuesta.me">
     <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat" alt="Gitmoji">
   </a>
-  
-  <img src="https://badgen.net/github/commits/RenatoCesarF/About_me"/>
-  
+ 
   <a href="https://renatocesar.netlify.app/">
     <img src="https://api.netlify.com/api/v1/badges/335575ec-f17e-4231-a063-d01b088ae907/deploy-status"/>
   </a>
+  
  </p>
 
 
