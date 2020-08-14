@@ -14,7 +14,7 @@
 <p  align="center">
    <img src="https://badgen.net/github/commits/RenatoCesarF/About_me"/>
   
-  <img src="https://img.shields.io/badge/React-JS-blue?style=flat&logo=react"/>
+  <img src="https://img.shields.io/badge/React-Js-blue?style=flat&logo=react"/>
    
   <a href="https://gitmoji.carloscuesta.me">
     <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat" alt="Gitmoji">
