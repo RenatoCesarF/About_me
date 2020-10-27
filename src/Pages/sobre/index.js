@@ -21,7 +21,7 @@ function Sobre() {
   }
   //Redirection to my Resume in google drive
   let redirect_drive = () => {
-    window.open('https://drive.google.com/file/d/1C9sViteK0KIgp2oVw0undcH5B-9_pTtJ/view?usp=sharing')
+    window.open('https://drive.google.com/file/d/10wwAmd6oeCAe3cj_vsECCT_ya9tuSvGU/view?usp=sharing')
 }
   return (
     <div>
