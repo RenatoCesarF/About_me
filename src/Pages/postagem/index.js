@@ -15,6 +15,16 @@ function Posts() {
             <div className='back'>
                 <section className="center">
                     <Post
+                        titulo= 'Trabalhando em projetos criativos no meu primeiro emprego'
+                        texto = 'Após uma das mais excitantes experiências com exercícios de lógica de programação consegui meu primeiro emprego em um time de desenvolvimento aqui da cidade. Estou trabalhando na Dias Tecnologia a quase 4 meses e tem sido uma ótima primeira experiência. Trabalho sozinho em projetos que são um tanto quanto fora do comum, no momento estou trabalhando em um sistema de análise de vídeos que será usado em um aplicativo flutter que também estou construindo, estou adorando a Stack e progredindo rápido. Espero poder compartilhar mais sobre futuramente.'
+                        data ='05/11/2020'
+                    />
+                    <Post
+                        titulo ='Primeiro Game Project'
+                        texto ='Recentemente comecei a trabalhar em uma das minhas antigas ideias de jogo, estou usando a Godot Engine e está sendo uma experiência e tanto. Além de estar implementando todo o jogo sozinho estou também postando DevLogs sobre os processos de criação do jogo no meu canal do youtube, segue o Link: https://youtu.be/nDTOd0dRu90'
+                        data = '10/10/2020'
+                    />
+                    <Post
                         titulo = 'Iniciando em Java e projeto beta finalizado'
                         texto = 'A faculdade da UEMS está oferecendo um curso de 88 horas sobre Orientação à Objeto com Java, confesso que tenho interesse em conhecer essa linguagem e alguns projetinhos em mente que estarei usando a mesma. Infelizmente os estudos de React terão que ficar para outra hora. Também acabo de finalizar a beta de um dos meus projetos, o Loopyng, veja mais sobre ele nesse vídeo aqui: https://www.youtube.com/watch?v=MOxTDfwdxCw&t=75s'
                         data = '22/06/2020'
