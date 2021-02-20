@@ -1,7 +1,7 @@
 import React from 'react'
 
 //Importing the icons 
-import {FaPython, FaReact, FaJava } from 'react-icons/fa'
+import {FaPython, FaReact } from 'react-icons/fa'
 import {SiNextDotJs, SiFlutter} from 'react-icons/si'
 import { DiDatabase } from 'react-icons/di'
 

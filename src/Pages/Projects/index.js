@@ -33,7 +33,7 @@ export default function Projects(){
                         link_page='https://goodvibesjornal.vercel.app'
                         haveVideo={false}
                         havePage={true}
-                        maxheight={'3.5rem'}//3.5rem
+                        maxheight={'10vw'}
                         
                    />
                     <Projeto_desc

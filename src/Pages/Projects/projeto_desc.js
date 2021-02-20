@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { FaGithubSquare, FaYoutube } from 'react-icons/fa'
-import { CgWebsite } from 'react-icons/cg'
 import { VscGlobe } from 'react-icons/vsc'
 
 function Projeto_desc(props) {
