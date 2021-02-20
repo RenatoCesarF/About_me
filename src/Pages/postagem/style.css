@@ -1,21 +1,22 @@
 .titulo_post{
-    padding-bottom: 20px;
+    padding-bottom: 3vh;
+    font-size: 1.4rem;
 }
 
 .post-footer{
     vertical-align: bottom;
-    padding-top: 2cm;
-    padding-bottom: 15px;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
 }
 
 .linha{
-    padding-top: 5px;
+    padding-top: 5vh;
 }
 
 .texto_do_post{
-    text-indent: 1.5;
+    text-indent: 1.5vh;
     text-align: justify;
-    text-indent: 1cm;
-    margin-left: 20px;
-    line-height: 2;
+    text-indent: 5vw;
+    margin-left: 1vw;
+    line-height: 4vh;
 }

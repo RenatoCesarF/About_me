@@ -5,7 +5,7 @@
 }
 
 .zoom img {
-  width: 100%;
+  width: 100vw;
   filter: brightness(90%);
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8s;
@@ -43,15 +43,17 @@ li #link:hover {
 #link{
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
-  display: inline-block;
+  display: inline-table;
   text-decoration: none;
   color:#D5D5D5;
-  padding: 15px;
-  padding-right: 70px;
-  padding-left: 70px;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-right: 6vw;
+  padding-left:  6vw;;
   align-items: center;
-  font: bold;
-  font-size: 25px;
+  font: bolder;
+  font-weight: bold;
+  font-size:  calc(20px + (20 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
 ul{

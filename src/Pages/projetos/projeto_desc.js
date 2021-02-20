@@ -11,22 +11,22 @@ function Projeto_desc(props) {
 
     return (
         <section>
-            <h2 style={{paddingBottom:'20px'}}>{props.titulo} </h2>
+            <img className='img_renato' src={props.image} alt='imagem projeto'/>
             
             <p className='text_project'> {props.texto}</p>
             
-            <img className='img_renato' src={props.image} alt='imagem projeto' style={{width: props.tamanho, height: props.tamanho}}/>
-            <div className='links'
-                
-            >
+            
+            
+            <div className='links'>
                 <FaGithubSquare
                     className='link_github'
-                    size='60px'
+                    size='6vh'
                     onClick={() => redirect_rep(props.link_git)}
                 />
         
                 <FaYoutube
-                    size='50px'
+                    size='5vh'
+                    color='#FF0000'
                     className='link_yt'
                     onClick={() => redirect_rep(props.link_yt)}
                 />

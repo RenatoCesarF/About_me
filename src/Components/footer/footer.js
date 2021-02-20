@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div>
             <div className="footer">
-              Todos os direitos reservador a Renato Cesar, site feito pelo mesmo. Contato: re.fbarcellos@hotmail.com
+              Site by Renato Cesar <br/>Contact: re.fbarcellos@hotmail.com
             </div>
         </div>
     )

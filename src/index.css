@@ -6,6 +6,8 @@
   font: Ubuntu;
 }
 body{
+  width: 100%;
+  overflow-x: hidden;
   background-color:#9583A2;
   text-align: center;
   flex: auto;
@@ -31,16 +33,16 @@ body::-webkit-scrollbar-thumb {
   background-color: #D5D5D5;
   border-radius: 10px;
   height: max-content;
-  padding: 15px;
+  padding: 1rem;
   justify-content: center;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  margin-right: 50px;  
+  margin-left: 4vw;
+  margin-bottom: 3vh;
+  margin-right: 4vw;  
 }
 /*---------------CENTRO-----------*/
 .center{
   background-color: #D5D5D5;
-  padding: 15px;
+  padding: 1.5vw;
   justify-content: center;
 }
 

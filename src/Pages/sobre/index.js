@@ -1,5 +1,5 @@
 import React from 'react'
-import {GrLinkedin,FaGithubSquare,FaFileDownload } from 'react-icons/all'
+import {GrLinkedin,FaGithubSquare,FaFileDownload, FaYoutube } from 'react-icons/all'
 
 import './style.css'; 
     
@@ -12,17 +12,15 @@ import Competencias from '../../Components/competencias/competencias'
 
 function Sobre() {
   //Redirection to git repo function 
-  let redirect_git = () => {
-    window.open('https://github.com/RenatoCesarF')
+  /*
+
+
+  
+  */
+  function redirect(link){
+    window.open(link)
   }
-  //Redicection to my linkedin
-  let redirect_linkedin = () => {
-      window.open('https://www.linkedin.com/in/renato-cesar-a31534193/')
-  }
-  //Redirection to my Resume in google drive
-  let redirect_drive = () => {
-    window.open('https://drive.google.com/file/d/10wwAmd6oeCAe3cj_vsECCT_ya9tuSvGU/view?usp=sharing')
-}
+
   return (
     <div>
                 
@@ -31,40 +29,43 @@ function Sobre() {
       <div className="back">
         <section className="center">
             <div>
-                <h2 className='im'>Quem Sou: </h2>
+                <h2 className='im'>Whow I'm: </h2>
                 <p className="who">
-                  Sou desenvolvedor FullStack, trabalho tanto com React-Js para criação de sites e aplicativos 
-                  (como esse site que você esta agora) quanto com Python, C e a base de MySQL para back-end. 
+                  I'm a FullStack developer, I work with both React-Js to create websites and applications
+                  (like this site you are now on) and Python, C, MySQL, Flutter, and the base of Java.
                 </p>
-                <p className="who" style={{paddingTop:'20px'}}>
-                  Programo desde mais novo e estou seguindo na carreira de desenvolvedor cursando Sistemas
-                  da Informação na UFGD. Fiz o ensino médio na Escola Estadual Presidente Vargas
-                  de Dourados e estou ultimo ano do curso de inglês avançado da Fisk.
+                <p className="who">
+                  I've been programming since I was young and pursuing a developer career studying Systems
+                  Information at UFGD. I did high school at Presidente Vargas State School
+                  from Dourados. I'm finishing my English Learning at Fisk. Since I started as a developer,
+                  I have been studying and learning more and more, working on projects in various programming languages ​​and producing
+                  videos about the most interesting projects I work on
                 </p>
             </div> 
-            <div className='contato'>
-              <form className='form'>
-                <div className='git' onClick={redirect_git} >
+            <div className='external_links'>
+             
+                <div className='git' onClick={() => redirect('https://github.com/RenatoCesarF')} >
+                      <FaGithubSquare  size='30px' className='simbol' />
+                      <h4 className='text'>Git Hub</h4>
                       
-                      <FaGithubSquare  size='30px' className='simbol_git' />
-                      <h4 className='text_git'>Git Hub</h4>
-                      
-                    </div>
-                <div className='lin' onClick={redirect_linkedin}>
-                      <GrLinkedin size='30px' className='simbol_lin' />
-                        <h4 className='text_lin'>Linkedin</h4>
                 </div>
-
-                <div className='curr' onClick={redirect_drive}>
-                      <FaFileDownload size='20px' className='simbol_down' />
-                        <h4 className='curriculo'>Currículo</h4>
+              
+                <div className='git' onClick={() => redirect('https://www.linkedin.com/in/renato-cesar-a31534193/')}>
+                      <GrLinkedin size='30px' className='simbol' color='#0077B5' />
+                        <h4 className='text'>Linkedin</h4>
                 </div>
+              
+                <div className='git' onClick={() => redirect('https://www.youtube.com/channel/UCHPXJJhhkw1i7oAkq_Mcumw')}>
+                      <FaYoutube size='30px' className='simbol'  color='#FF0000'  />
+                        <h4 className='text'>Youtube</h4>
+                </div>
+          </div> 
 
-
-              </form>
-            </div> 
+          <div className='curr' onClick={() => redirect('https://drive.google.com/file/d/10wwAmd6oeCAe3cj_vsECCT_ya9tuSvGU/view?usp=sharing')}>
+            <FaFileDownload size='20px' className='simbol_down' />
+            <h4 className='curriculo'>Currículo</h4>
+          </div>
             
-            <Competencias className='comp'/>
           <hr />
             <Contato/>
         </section> 
@@ -76,3 +77,7 @@ function Sobre() {
   )
 }
 export default Sobre
+
+    /*
+               
+                */

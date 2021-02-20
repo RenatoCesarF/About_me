@@ -1,13 +1,14 @@
 /*----------Images-----*/
 .img_renato{
-  height: 20%;
-  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15vh;
   display: flex;
   position: relative;
-  padding-top: 1%;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
-  left: 70%;
+  max-height: 130px;
+  align-self: center;
 }
 .img_renato:hover{
   transform: scale(1.1);
@@ -34,14 +35,16 @@ h1{
 .divisoria{
   position: relative;
   display:flex;
-  bottom: 40px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
 }
 .text_project{
   text-align: justify;
-  text-indent: 30px;
-  margin-left: 35px;
-  margin-right: 35px;
-  line-height: 2;
+  font-size: 1.2rem;
+  text-indent: 2rem;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  line-height: 4vh;
 
 }
 .post-footer{
@@ -53,20 +56,18 @@ h1{
  
 /*-----------Links to git hub--------*/
 .links{
-  position: relative;
-  bottom: 10vh;
-  width: 10%;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
   display:flex;
-  margin-left: 30px;
+  padding-left: 2vw;
+  padding-top: 2vh;
 }
 
 .link_github{
-  vertical-Align: middle;
   cursor: pointer;
   transition: ease-in-out; 
   -webkit-transition: all 0.3s;
+  padding-right: 2vw;
 }
 .link_github:hover{
   filter: brightness(150%);
@@ -77,9 +78,6 @@ h1{
 
 /*Link to youtube*/
 .link_yt{
-  margin-left: 20px;
-  margin-top: 5px;
-  width: 50%;
   cursor: pointer;
   transition: ease-in-out; 
   -webkit-transition: all 0.2s;

@@ -8,112 +8,64 @@ h4{
 
 .who{
   text-align: justify;
-  line-height: 1.5;
-  text-indent: 1cm;
+  line-height: 4vh;
+  text-indent: 2rem;
+  font-size: 1.15rem;
 }
 
-
+.external_links{
+  display: flex;
+  flex-direction: row;
+}
 /*------redirect to github--------*/
 .git{
-  padding-left: 15px;
-  width: 50%;
-  height: 60px;
-  margin-top: 16px;
+  padding-left: 2vw;
+  margin-top: 3vh;
   text-align: left;
-  font-size: 18px;
-  line-height: 60px;
+  font-size: 1rem;
+  line-height: 6vh;
   cursor: pointer;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
 }
-.simbol_git{
-  padding-bottom:5px;
-  padding-right:10px;
+.simbol{
+  padding-bottom:0.5vh;
+  padding-right:1vw;
   display: inline-block;
   vertical-align: middle;
   transition: ease-in-out;
   -webkit-transition: all 0.8s;
 }
 
-.text_git{
+.text{
   display: inline-block;
   vertical-align: top;
   transition: ease-in-out;
+  font-size: 1rem;
   -webkit-transition: all 0.8s;
 }
 .git:hover {
   transform: scale(1.1);
 }
-.text_git:hover{
-  filter: brightness(150%);
+.text:hover{
   animation-duration: 0.8s;
 }
-.simbol_git:hover{
-  filter: brightness(200%);
+.simbol:hover{
   transform: scale(1.1);
   transition-duration: 0.5s;
   animation-duration: 0.8;
 }
-/*--------Redirect to linkedIn------*/
-.lin{
-  transition: ease-in-out;
-  -webkit-transition: all 0.3s;
-  padding-left: 15px;
-  width: 50%;
-  height: 60px;
-  text-align: left;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
-  cursor: pointer;
-}
-
-.simbol_lin{
-  transition: ease-in-out;
-  -webkit-transition: all 0.8s;
-  padding-bottom:5px;
-  padding-right:10px;
-  display: inline-block;
-  color: #0077B5;
-  vertical-align: middle;
-}
-.text_lin{
-  transition: ease-in-out;
-  -webkit-transition: all 0.8s;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.lin:hover {
-  transition: ease-in-out;
-  -webkit-transition: all 0.8s;
-  transform: scale(1.1);
-  transition-duration: 0.2s;
-}
-.text_lin:hover{
-  filter: brightness(150%);
-  animation-duration: 0.8s;
-}
-.simbol_lin:hover{
-  filter: brightness(110%);
-  transform: scale(1.1);
-  transition-duration: 0.8s;
-  animation-duration: 0.8s;
-  animation-delay: 1s;
-}
-
 
 
 /* ---------Redirect to Resume doc------*/
-
 .curr{
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
   margin: 20px;
-  margin-left: 15px;
-  padding-left: 10px;
-  width: 55%;
-  height: 35px;
+  margin-left: auto;
+  padding-left: auto;
+  width: 10rem;
+  height: 6vh;
   text-align: left;
   text-decoration: none;
   font-size: 18px;
@@ -146,15 +98,6 @@ h4{
   color: rgb(161, 158, 158);
   transform: scale(1.1);
   transition-duration: 0.3s;
-}
-
-.curr:hover .curriculo{
   filter: brightness(120%);
-  animation-duration: 0.3s;
-}
-.curr:hover .simbol_down{
-  filter: brightness(120%);
-  transform: scale(1.1);
-  transition-duration: 0.3s;
   animation-duration: 0.3s;
 }

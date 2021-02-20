@@ -14,8 +14,8 @@ function Header() {
                 <img src={back} alt='Renato Cesar'></img>
             </div>
 
-            <div>
-                <ul>
+            <div >
+                <ul style={{ paddingTop: "0.5rem", paddingBottom: "1rem"}}>
                     <li>
                         <Link id='link' className='sobre' to='/'><a href='#scroll'></a>Sobre</Link>                       
                     </li>
