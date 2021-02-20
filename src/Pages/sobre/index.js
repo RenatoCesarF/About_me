@@ -29,7 +29,7 @@ function Sobre() {
       <div className="back">
         <section className="center">
             <div>
-                <h2 className='im'>Whow I'm: </h2>
+                <h2 className='im'>Who I'm: </h2>
                 <p className="who">
                   I'm a FullStack developer, I work with both React-Js to create websites and applications
                   (like this site you are now on) and Python, C, MySQL, Flutter, and the base of Java.
