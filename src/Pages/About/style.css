@@ -1,54 +1,57 @@
 
 /*--------Image-----------*/
+.im{
+  color: #373D3F ;
 
-h4{
-  color: rgb(0, 0, 0);
-  text-align: left;
 }
-
 .who{
   text-align: justify;
-  line-height: 4vh;
+  font-size: 1.2rem;
   text-indent: 2rem;
-  font-size: 1.15rem;
+  color: #373D3F ;
+
+  line-height: 1.8rem;
 }
 
+.whereUFind{
+  padding-left: 1vw;
+  padding-top: 2rem;
+  text-align: start;
+  color:#373D3F;
+}
 .external_links{
   display: flex;
   flex-direction: row;
+  
 }
 /*------redirect to github--------*/
 .git{
   padding-left: 2vw;
-  margin-top: 3vh;
-  text-align: left;
+  padding-right: 1vw;
+  margin-top: 2vh;
   font-size: 1rem;
-  line-height: 6vh;
   cursor: pointer;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
 }
+.git:hover {
+  transform: scale(1.1);
+}
 .simbol{
   padding-bottom:0.5vh;
-  padding-right:1vw;
+  padding-right:0.3vw;
   display: inline-block;
   vertical-align: middle;
   transition: ease-in-out;
   -webkit-transition: all 0.8s;
 }
-
 .text{
+  color: #373D3F;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: 0.1rem;
   transition: ease-in-out;
   font-size: 1rem;
   -webkit-transition: all 0.8s;
-}
-.git:hover {
-  transform: scale(1.1);
-}
-.text:hover{
-  animation-duration: 0.8s;
 }
 .simbol:hover{
   transform: scale(1.1);
@@ -61,15 +64,16 @@ h4{
 .curr{
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
-  width: 33vw;
-  height: 6vh;
+  width: 8rem;
+  height: 2.5rem;
 
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+  margin-left: 2vw;
   text-align: center;
 
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.3rem;
  
   cursor: pointer;
   border-radius: 4px;
@@ -79,16 +83,16 @@ h4{
 .simbol_down{
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
-  padding-right:13px;
+  padding-right:0.5vw;
   display: inline-block;
   color: #fff5f5d8;
-  vertical-align: -9px;
+  vertical-align: -0.5rem;
 }
 .curriculo{
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
   display: inline-block;
-  vertical-align: -7px;
+  vertical-align: -0.4rem;
   color: #fff5f5d8;
 }
 

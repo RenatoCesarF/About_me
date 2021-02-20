@@ -8,12 +8,17 @@ import Footer from '../../Components/footer/footer'
 import Post from './post'
 
 //Function that return the HTML of the page Posts
-function Posts() {
+export default function MyPosts() {
     return (
         <div>
             <Header/>
             <div className='back'>
                 <section className="center">
+                    <Post
+                        titulo= 'Updating this and starting new projecs'
+                        texto = 'Today I comeback to this site repository to update somethings, like add responsiveness to smartphones and tablets, adjusting some colors and information and add my newest project to the list of Projects, the GoodVibes Jornal. It is a nextjs site with some news and cool stufs that I founded in the internet. Anyways, I will add somemore things and start a new project involving new languages and chalanges!'
+                        data ='20/02/2021'
+                    />
                     <Post
                         titulo= 'Trabalhando em projetos criativos no meu primeiro emprego'
                         texto = 'Após uma das mais excitantes experiências com exercícios de lógica de programação consegui meu primeiro emprego em um time de desenvolvimento aqui da cidade. Estou trabalhando na Dias Tecnologia a quase 4 meses e tem sido uma ótima primeira experiência. Trabalho sozinho em projetos que são um tanto quanto fora do comum, no momento estou trabalhando em um sistema de análise de vídeos que será usado em um aplicativo flutter que também estou construindo, estou adorando a Stack e progredindo rápido. Espero poder compartilhar mais sobre futuramente.'
@@ -50,6 +55,3 @@ function Posts() {
         </div>
     )
 }
-
-//exportação da função que retorna HTML
-export default Posts

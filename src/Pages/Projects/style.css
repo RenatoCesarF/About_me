@@ -2,17 +2,16 @@
 .img_renato{
   margin-left: auto;
   margin-right: auto;
-  height: 15vh;
+  height: 5rem;
   display: flex;
   position: relative;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
-  max-height: 130px;
   align-self: center;
 }
 .img_renato:hover{
   transform: scale(1.1);
-  filter: brightness(130%);
+  filter: brightness(110%);
 }
 
 /*-----center-----*/
@@ -27,11 +26,7 @@
   margin-right: 80px;
 }
 
-h1{
-  color: rgb(0, 0, 0);
-  text-align: left;
-  margin-top: 0px;
-}
+
 .divisoria{
   position: relative;
   display:flex;
@@ -63,27 +58,13 @@ h1{
   padding-top: 2vh;
 }
 
-.link_github{
+.simble_link{
   cursor: pointer;
   transition: ease-in-out; 
   -webkit-transition: all 0.3s;
-  padding-right: 2vw;
+  padding-right: 1vw;
 }
-.link_github:hover{
-  filter: brightness(150%);
-  animation-duration: 0.2s;
-  transform: scale(1.2);
-}
-
-
-/*Link to youtube*/
-.link_yt{
-  cursor: pointer;
-  transition: ease-in-out; 
-  -webkit-transition: all 0.2s;
-  color:#F04732;
-}
-.link_yt:hover{
+.simble_link:hover{
   filter: brightness(150%);
   animation-duration: 0.2s;
   transform: scale(1.2);

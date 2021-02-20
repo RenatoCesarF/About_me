@@ -6,7 +6,7 @@ import './style.css'
 import {MdEmail,RiWhatsappLine } from 'react-icons/all'
 
 
-function Contato() {
+export default function Contact() {
 
   //Function to copy my email and open your send email system
   let Copy = () => {
@@ -17,7 +17,7 @@ function Contato() {
     inputTest.select();
     document.execCommand('copy');
     document.body.removeChild(inputTest);
-    alert("Email Copiado. Caso você tenha uma ferramenta para envio de e-mails ela sera aberta automaticamente.")
+    alert("E-mail Copied")
   }
 
   //Function to redirect you to my contact on whatsapp
@@ -28,7 +28,7 @@ function Contato() {
   return (
     <section className='contact'>
       <div className='contato'>
-        <h2 className='titulo'>Contato</h2>
+        <h2 className='titulo'>Contact</h2>
         <form className='form'>
         
           <div  id='scroll' className='email' onClick={Copy}>
@@ -48,5 +48,3 @@ function Contato() {
   );
 
 }
-
-export default Contato;

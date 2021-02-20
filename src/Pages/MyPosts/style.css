@@ -1,6 +1,7 @@
 .titulo_post{
     padding-bottom: 3vh;
     font-size: 1.4rem;
+    color: #373D3F; 
 }
 
 .post-footer{
@@ -14,9 +15,11 @@
 }
 
 .texto_do_post{
+    font-size: 1.1rem;
     text-indent: 1.5vh;
     text-align: justify;
     text-indent: 5vw;
-    margin-left: 1vw;
+    color: #373D3F ;
+    margin-right: 1vw;
     line-height: 4vh;
 }

@@ -35,9 +35,15 @@ body::-webkit-scrollbar-thumb {
   height: max-content;
   padding: 1rem;
   justify-content: center;
-  margin-left: 4vw;
+  margin-left: 12vw;
+  margin-right: 14vw;  
   margin-bottom: 3vh;
-  margin-right: 4vw;  
+}
+@media(max-width: 800px){
+  .back{
+    margin-left: 4vw;
+    margin-right: 4vw; 
+  }
 }
 /*---------------CENTRO-----------*/
 .center{

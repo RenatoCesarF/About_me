@@ -17,10 +17,10 @@ function Header() {
             <div >
                 <ul style={{ paddingTop: "0.5rem", paddingBottom: "1rem"}}>
                     <li>
-                        <Link id='link' className='sobre' to='/'><a href='#scroll'></a>Sobre</Link>                       
+                        <Link id='link' className='sobre' to='/'><a href='#scroll'></a>About</Link>                       
                     </li>
                     <li>
-                        <Link id='link' className='projetos' to='/projetos'>Projetos</Link>                  
+                        <Link id='link' className='projetos' to='/projetos'>Projects</Link>                  
                     </li>
                     <li>
                         <Link id='link' className='posts'to='/posts'>Posts</Link>
