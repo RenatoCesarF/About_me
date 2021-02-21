@@ -27,14 +27,12 @@ export default function About() {
                 <h2 className='im'>Who I'm: </h2>
                 <p className="who">
                   I'm a FullStack developer, I work with both React-Js to create websites and applications
-                  (like this site you are now on) and Python, C, MySQL, Flutter, and Java.
+                  (like this site you are now on) Python, C, MySQL, Flutter, and Java.
                 </p>
                 <p className="who">
-                  I've been programming since I was young and pursuing a developer career studying Systems
-                  Information at UFGD. I did high school at Presidente Vargas State School
-                  from Dourados. I'm finishing my English Learning at Fisk. Since I started as a developer,
-                  I have been studying and learning more and more, working on projects in various programming languages ​​and producing
-                  videos about the most interesting projects I work on
+                Studying Information Systems at UFGD a Dourados's university. Since I started as
+              developer, I have been studying and learning more and more, working on projects in several
+              programming languages ​​and producing videos about the most interesting projects
                 </p>
             </div> 
              

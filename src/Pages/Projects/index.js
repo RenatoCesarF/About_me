@@ -37,12 +37,12 @@ export default function Projects(){
                         
                    />
                     <Projeto_desc
-                        texto=' Um programa desenvolvido em python com objetivo de replicar uma loop-station.
-                                O programa funciona atravez das teclas do computador, cada uma das que são mostradas 
-                                no leyout representa um pedal de loop-station, ou seja, pode-se gravar em um audio em 
-                                cada um deles e coloca-lo em looping. Existem funções ainda em desenvolvimento, como:
-                                pause e play do audio metronomo, visualização do grafico do microfone e assim por diante.
-                                Veja mais sobre o projeto no Read Me do github.'
+                        texto=' A program developed in python to replicate a loop station.
+                                The program works through the computer keys, each of which is shown
+                                in leyout it represents a loop-station pedal, that is, it can be recorded in an audio in
+                                each of them and loop it. There are functions still under development, such as:
+                                pause and play the audio metronome, view the microphone graph and so on.
+                                See more about the project in the Read Me on github. '
                         image={loopyng}
                         haveVideo={true}
                         link_git='https://github.com/RenatoCesarF/Loopyng'
@@ -50,12 +50,11 @@ export default function Projects(){
                    />
 
                     <Projeto_desc
-                        texto=' Site desenvolvido com React-js para testar minhas abilidades em CSS e com a
-                                ferramenta ja mencionada, além de servir como portfólio Online de divulgação do meu 
-                                trabalho. Inspirado pelo Lucas Montano que diz ser importante ter um site "About me" 
-                                para divulgar seus projetos e trabalhos. Não foi possível, até então, implementar todas 
-                                as ideias que tive para o projeto, mas assim que eu aprender mais sobre o framework 
-                                voltarei a desenvolver este site. Veja mais sobre no repositório do github.'
+                        texto=' Site developed with React-js to test my skills in WebDevelopment, in addition 
+                        to serving as an online portfolio for disseminating my work as a developer. Inspired by 
+                        Lucas Montano who says it is important to have an "About me" website
+                        to publicize your projects. Until then, it was not possible to implement all
+                        the ideas I had for this website. See more on the github repository, and you can watch my video about it too. '
                         image={Renato}
                         haveVideo={true}
                         link_git = 'https://github.com/RenatoCesarF/About_me'
@@ -63,9 +62,9 @@ export default function Projects(){
                     />  
 
                     <Projeto_desc
-                        texto='Aplicação feita durante a Semana OmniStak da RockesSeat.Tem como objetivo aproximar ONGs a possíveis doadores. A aplicação funciona com um cadastro, atravez do Site, por parte da ONG de um dos casos que a mesma necessita de doação. A pessoa que tiver o aplicativo pode visualizar esses casos
-                        cadastrados e contactar a ONG caso deseje, esse contato pode
-                        se feito atravez de e-mail ou WhatsApp. Veja mais no repositório do github'
+                        texto='Application made during OmniStak Week, a week of content and classes about React-js and React Native. It aims to bring NGOs closer to possible donors. The application works with a registration, through the Site, by the NGO of one of the cases that it needs to donate. The person who has the app can view these cases
+                        registered and contact the NGO if you wish, that contact can
+                        if done via email or WhatsApp. See more in the github repository'
                         image={hero}
                         link_git='https://github.com/RenatoCesarF/be-the-hero'
                         haveVideo={false}
