@@ -3,8 +3,9 @@
   background-color: #2D034C;
   color: #B5B5B5;
   text-align: center;
+  align-items: center;
   width: 100vw;
   font-size: 2vh;
-  padding-top:3vh ;
-  padding-bottom:3vh ;
+  padding-top:2vh ;
+  padding-bottom:2rvh ;
 }

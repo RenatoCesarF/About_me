@@ -11,8 +11,7 @@ export default function Skills() {
   return (
   
     <div style={{display:"inline" }} >
-
-      <div className='area_detect' >
+             <div className='area_detect' >
         <FaPython className='one_comp' size='5rem' id='one_comp' />
             <h2>Python</h2>
       </div>
@@ -21,21 +20,21 @@ export default function Skills() {
         <FaReact className='one_comp' size='5rem'/>
             <h2>React-Js</h2>
       </div>
-      
+
+      <div className='area_detect'>
+        <SiNextDotJs className='one_comp' size='5rem' />
+          <h2>Next</h2>
+      </div>
+
       <div className="area_detect">
         <DiDatabase className='one_comp' size='5rem' />
             <h2>SQL</h2>
       </div>
 
       <div className='area_detect'>
-        <SiNextDotJs className='one_comp' size='5rem' />
-          <h2>Next</h2>
-      </div>
-      <div className='area_detect'>
         <SiFlutter className='one_comp' size='5rem' />
           <h2>Flutter</h2>
       </div>
-   
     </div>
   );
 }
