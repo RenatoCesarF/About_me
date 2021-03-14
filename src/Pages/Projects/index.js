@@ -11,9 +11,9 @@ import Projeto_desc from './projeto_desc'
 
 //Importing the photos
 import Renato from '../../assets/renato.png'
-import hero from '../../assets/port/bethehero.png'
-import loopyng from '../../assets/port/loopyng.png'
-import goodvibes from '../../assets/port/goodvibesjornal.png'
+import hero from '../../assets/portfolio/bethehero.png'
+import loopyng from '../../assets/portfolio/loopyng.png'
+import goodvibes from '../../assets/portfolio/goodvibesjornal.png'
 
 export default function Projects(){
     return (
@@ -69,10 +69,6 @@ export default function Projects(){
                         link_git='https://github.com/RenatoCesarF/be-the-hero'
                         haveVideo={false}
                     />
-                   
-                   
-
-                    
                     <Contact/> 
                 </section>
             </div>

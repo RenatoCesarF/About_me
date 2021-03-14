@@ -20,7 +20,7 @@ function Header() {
                         <Link id='link' className='sobre' to='/'><a href='#scroll'></a>About</Link>                       
                     </li>
                     <li>
-                        <Link id='link' className='projetos' to='/projetos'>Projects</Link>                  
+                        <Link id='link' className='projetos' to='/projects'>Projects</Link>                  
                     </li>
                     <li>
                         <Link id='link' className='posts'to='/posts'>Posts</Link>

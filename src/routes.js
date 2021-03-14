@@ -16,8 +16,9 @@ export default function Routes() {
         <BrowserRouter>
             <Switch> 
                 <Route path='/' exact component={About}/>
-                <Route path='/projetos' component={Projects} />
+                <Route path='/projects' component={Projects} />
                 <Route path='/posts' component={MyPosts} />
+                <Route path='/*' component={About} />
             </Switch>
         </BrowserRouter>
     );
