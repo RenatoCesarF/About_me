@@ -56,7 +56,11 @@ Inspired by videos from the Lucas Montano channel, I decided to use what I was l
 ## Page "Projetos"
 ![projetos](https://user-images.githubusercontent.com/62253156/81237283-3ea09380-8fcd-11ea-97ef-ae9bae021303.png)
 
-###	:crystal_ball: future implementations
-- Auto Scroll on header
+###	📝 To Do:
+
+- [x] SmartPhone port
+- [x] Routes problem
+- [ ] Iphone Fliquering on change Page problem
+- [ ] Auto Scroll on header
 
 
