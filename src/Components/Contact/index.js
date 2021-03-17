@@ -32,14 +32,14 @@ export default function Contact() {
         <form className='form'>
         
           <div  id='scroll' className='email' onClick={Copy}>
-            <MdEmail size='30px' className='simbol_email'/>
+            <MdEmail size='40px' className='simbol_email'/>
             <a className='text_email' href="mailto:re.fbarcellos@hotmail.com" > E-mail</a>
           </div> 
           
         
           <div className='zap' onClick={redirect_to_whatsapp}>
-            <RiWhatsappLine size='30px' className='simbol_zap' />
-            <h1 className='text_zap'>WhatsApp</h1>
+            <RiWhatsappLine size='40px' className='simbol_zap' />
+            <h1 className='text_zap'>Whatsapp</h1>
           </div>
         
         </form>

@@ -39,7 +39,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: 14vw;  
   margin-bottom: 3vh;
 
-  padding:2.4vw;;
+  padding:1.5rem;
 }
 @media(max-width: 800px){
   .back{

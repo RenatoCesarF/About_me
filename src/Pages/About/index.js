@@ -23,19 +23,15 @@ export default function About() {
                 
       <div className="back">
             <div>
-                <h2 className='im'>Who are Renato Cesar: </h2>
+                <h2 className='im'>Who is Renato Cesar: </h2>
                 <p className="who">
-                  I'm a FullStack developer, I work with both React-Js to create websites and applications
-                  (like this site you are now on) Python, C, MySQL, Flutter, and Java.
-                </p>
-                <p className="who">
-                Studying Information Systems at UFGD a Dourados's university. Since I started as
-              developer  I have been studying and learning more and more, working on projects in several
-              programming languages ​​and producing videos about the most interesting ones.
+                  I'm a FullStack developer, work with React and Next-Js, Python, MySQL, Flutter, and Java.
+                  Have been learning more and more, developing projects in several
+                  programming languages ​​and producing videos about each project.
                 </p>
             </div> 
              
-            <h3 className='whereUFind'>Where you can find Me:</h3>
+            <h3 className='where_find_me'>Where you can find Me:</h3>
             <div className='external_links'>
                 <div className='git' onClick={() => redirect('https://github.com/RenatoCesarF')} >
                       <FaGithubSquare  size='30px' className='simbol'color='#24292E' />
