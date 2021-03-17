@@ -11,7 +11,7 @@ export default function Project(props) {
 
     return (
         <section>
-            <img className='project_image' src={props.image} alt='Project Image' />            
+            <img className='project_image' src={props.image} alt='Project' />            
             <p className='project_description'> {props.description}</p>
             
             <div className='links'>

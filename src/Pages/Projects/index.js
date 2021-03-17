@@ -3,8 +3,6 @@ import React from 'react'
 import './style.css'; 
 
 //Importing the components
-import Header from '../../Components/header/header'
-import Footer from '../../Components/footer/footer'
 import Contact from '../../Components/Contact/index'
 
 import Project from './projeto_desc'
@@ -17,15 +15,14 @@ import goodvibes from '../../assets/portfolio/goodvibesjornal.png'
 
 export default function Projects(){
     return (
-        <div>
-            <Header />
+           
             <div className='back'>
 
                     <Project
                         description=' A Next.Js project that tries to bring good vibes for your day,
                                 just happy news. No account, no AI algorithm, just the old jornal thing, 
                                 but with the technology that we have nowadays like funny and cute videos, 
-                                quotes from around the world and more coming soon
+                                quotes from around the world and more coming soon.
                         '
                         image={goodvibes}
                         link_git='https://github.com/RenatoCesarF/GoodVibesJornal'
@@ -63,8 +60,6 @@ export default function Projects(){
                         link_git='https://github.com/RenatoCesarF/be-the-hero'
                     />
                     <Contact/> 
-            </div>
-            <Footer/>
         </div>
     )
 }

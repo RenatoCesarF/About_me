@@ -3,15 +3,13 @@ import React from 'react'
 import './style.css'; 
     
 //Importing all the components
-import Header from '../../Components/header/header'
-import Footer from '../../Components/footer/footer'
 import Post from './post'
 
 //Function that return the HTML of the page Posts
 export default function MyPosts() {
     return (
         <div>
-            <Header/>
+     
             <div className='back'>
                     <Post
                         titulo= 'Updating this and starting new projecs'
@@ -49,7 +47,7 @@ export default function MyPosts() {
                         data = '30/04/2020'
                     />
             </div>
-            <Footer/>
+        
         </div>
     )
 }

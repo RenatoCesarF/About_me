@@ -4,8 +4,6 @@ import {GrLinkedin,FaGithubSquare,FaFileDownload, FaYoutube, FaMedium } from 're
 import './style.css'; 
     
 //Importing the components
-import Header from '../../Components/header/header'
-import Footer from '../../Components/footer/footer'
 import Contact from '../../Components/Contact/index'
 import Skills from '../../Components/Skills'
 
@@ -18,9 +16,7 @@ export default function About() {
 
   return (
     <div>
-                
-      <Header />
-                
+              
       <div className="back">
             <div>
                 <h2 className='im'>Who is Renato Cesar: </h2>
@@ -63,8 +59,6 @@ export default function About() {
             <Contact/>
                            
       </div>
-              
-        <Footer/>
     </div>
   )
 }
