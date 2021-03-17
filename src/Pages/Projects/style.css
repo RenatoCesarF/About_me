@@ -1,15 +1,15 @@
 /*----------Images-----*/
-.img_renato{
+.project_image{
   margin-left: auto;
   margin-right: auto;
-  height: 5rem;
+  height: 18vmin;
   display: flex;
   position: relative;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
   align-self: center;
 }
-.img_renato:hover{
+.project_image:hover{
   transform: scale(1.1);
   filter: brightness(110%);
 }
@@ -33,13 +33,13 @@
   margin-top: 4vh;
   margin-bottom: 4vh;
 }
-.text_project{
+.project_description{
   text-align: justify;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   text-indent: 2rem;
   margin-left: 3vw;
   margin-right: 3vw;
-  line-height: 4vh;
+  line-height: 1.4em;
 
 }
 .post-footer{
@@ -58,13 +58,13 @@
   padding-top: 2vh;
 }
 
-.simble_link{
+.icon_link{
   cursor: pointer;
   transition: ease-in-out; 
   -webkit-transition: all 0.3s;
   padding-right: 1vw;
 }
-.simble_link:hover{
+.icon_link:hover{
   filter: brightness(150%);
   animation-duration: 0.2s;
   transform: scale(1.2);

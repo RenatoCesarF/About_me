@@ -1,13 +1,15 @@
 .titulo_post{
     padding-bottom: 3vh;
-    font-size: 1.4rem;
+    font-size: 1.5em;
     color: #373D3F; 
 }
-
-.post-footer{
-    vertical-align: bottom;
+.post_date{
     padding-top: 5vh;
+    font-size: 1em;
     padding-bottom: 1vh;
+    text-align: end;
+    display: block;
+    color: rgb(109, 108, 108);
 }
 
 .linha{
@@ -15,11 +17,11 @@
 }
 
 .texto_do_post{
-    font-size: 1.1rem;
+    font-size: 1.2em;
+    line-height: 1.4em;
     text-indent: 1.5vh;
     text-align: justify;
     text-indent: 5vw;
     color: #373D3F ;
     margin-right: 1vw;
-    line-height: 4vh;
 }

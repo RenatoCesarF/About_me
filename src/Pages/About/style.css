@@ -2,15 +2,19 @@
 /*--------Image-----------*/
 .im{
   color: #373D3F ;
-
+  margin-bottom: 1.3rem;
+  font-size: 1.6rem;
 }
 .who{
   text-align: justify;
-  font-size: 3vh;
-  text-indent: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  text-indent: 1rem;
   color: #373D3F ;
+  margin-right: 2vw;
 
-  line-height: 4vh;
+  margin-left: 2vw;
+
 }
 
 .whereUFind{
