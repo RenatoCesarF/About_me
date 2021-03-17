@@ -60,6 +60,8 @@ Inspired by videos from the Lucas Montano channel, I decided to use what I was l
 
 - [x] SmartPhone port
 - [x] Routes problem
+- [ ] Page indicator on navBar
+- [ ] Update Github repository
 - [ ] Iphone Fliquering on change Page problem
 - [ ] Auto Scroll on header
 
