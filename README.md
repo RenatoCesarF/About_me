@@ -48,20 +48,26 @@ Inspired by videos from the Lucas Montano channel, I decided to use what I was l
 
 # :newspaper:Pages	
 ## Header
-![nnnew](https://user-images.githubusercontent.com/62253156/81237256-2a5c9680-8fcd-11ea-91aa-666b7af5981b.png )
+<img src="https://user-images.githubusercontent.com/62253156/81237256-2a5c9680-8fcd-11ea-91aa-666b7af5981b.png" alt="drawing" width="1000"/>
 
-## Page "Sobre"
-![cabeçalho](https://user-images.githubusercontent.com/62253156/81237083-a9050400-8fcc-11ea-842a-7c00a54f68b0.png)
+## Page "About"
+<img src="https://user-images.githubusercontent.com/62253156/111403783-fbf71f80-86a3-11eb-9409-1f491210f082.png" alt="drawing" width="1000"/>
+
 
 ## Page "Projetos"
-![projetos](https://user-images.githubusercontent.com/62253156/81237283-3ea09380-8fcd-11ea-97ef-ae9bae021303.png)
+<img src="https://user-images.githubusercontent.com/62253156/111403778-fa2d5c00-86a3-11eb-8f7f-3e7387bd7bec.png" alt="drawing" width="1000"/>
+
+
+# :iphone: on Smartphone 
+<img src="https://user-images.githubusercontent.com/62253156/111404555-5644b000-86a5-11eb-8896-6089ed660971.png" alt="drawing" width="800"/>
+
 
 ###	📝 To Do:
 
 - [x] SmartPhone port
 - [x] Routes problem
+- [x] Update Github repository
 - [ ] Page indicator on navBar
-- [ ] Update Github repository
 - [ ] Iphone Fliquering on change Page problem
 - [ ] Auto Scroll on header
 
