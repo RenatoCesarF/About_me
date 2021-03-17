@@ -3,38 +3,44 @@ import React from 'react'
 import { FaGithubSquare, FaYoutube } from 'react-icons/fa'
 import { VscGlobe } from 'react-icons/vsc'
 
-function Projeto_desc(props) {
+export default function Project(props) {
     /*função de redirecionamento*/
     let redirect_rep = (link) => {
         window.open(link)
-    }
+    }   
 
     return (
         <section>
-            <img className='img_renato' src={props.image} alt='Project Image' style={{maxHeight: `${props.maxheight}`}}/>            
-            <p className='text_project'> {props.texto}</p>
+            <img className='project_image' src={props.image} alt='Project Image' />            
+            <p className='project_description'> {props.description}</p>
             
             <div className='links'>
-                <FaGithubSquare
-                    className='simble_link'
-                    size='6vh'
+                {
+                    props.link_git != null?
+                    (<FaGithubSquare
+                    className='icon_link'
+                    size='2.5rem'
                     onClick={() => redirect_rep(props.link_git)}
-                />
-                {props.haveVideo?
-                    (<FaYoutube
-                    size='6vh'
-                    color='#F20F22'
-                    className='simble_link'
-                    onClick={() => redirect_rep(props.link_yt)}
                     />)
                     :
                     <div/>
                 }
-                {props.havePage?
+             
+                {props.link_youtube != null?
+                    (<FaYoutube
+                    size='2.5rem'
+                    color='#F20F22'
+                    className='icon_link'
+                    onClick={() => redirect_rep(props.link_youtube)}
+                    />)
+                    :
+                    <div/>
+                    }
+                {props.link_page != null?
                     (<VscGlobe
-                    size='6vh'
+                    size='2.5rem'
                     color='#006FA5'
-                    className='simble_link'
+                    className='icon_link'
                     onClick={() => redirect_rep(props.link_page)}
                     />)
                     :
@@ -46,4 +52,3 @@ function Projeto_desc(props) {
     )
 }
 
-export default Projeto_desc;

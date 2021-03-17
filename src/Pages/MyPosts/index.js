@@ -13,7 +13,6 @@ export default function MyPosts() {
         <div>
             <Header/>
             <div className='back'>
-                <section className="center">
                     <Post
                         titulo= 'Updating this and starting new projecs'
                         texto = 'Today I comeback to this site repository to update somethings, like add responsiveness to smartphones and tablets, adjusting some colors and information and add my newest project to the list of Projects, the GoodVibes Jornal. It is a nextjs site with some news and cool stufs that I founded in the internet. Anyways, I will add somemore things and start a new project involving new languages and chalanges!'
@@ -49,7 +48,6 @@ export default function MyPosts() {
                         texto = 'Tive várias ideias de implementação nos últimos dias, entre elas esse site, estarei utilizando a base de react para criar esse site e depois partir para o real motivo de estar aprendendo Desenvolvimento web, motivo esse que não sera revelado tão em breve, apenas quando a ideia estiver no ar. Passarei os próximos dias implementando esse site.'
                         data = '30/04/2020'
                     />
-                </section>
             </div>
             <Footer/>
         </div>

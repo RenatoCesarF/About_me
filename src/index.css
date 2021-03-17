@@ -38,6 +38,8 @@ body::-webkit-scrollbar-thumb {
   margin-left: 12vw;
   margin-right: 14vw;  
   margin-bottom: 3vh;
+
+  padding:2.4vw;;
 }
 @media(max-width: 800px){
   .back{
@@ -46,11 +48,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 /*---------------CENTRO-----------*/
-.center{
-  background-color: #D5D5D5;
-  padding: 1.5vw;
-  justify-content: center;
-}
+
 
 hr {
   border: 0;

@@ -17,7 +17,7 @@ function Header() {
             <div >
                 <ul style={{ paddingTop: "0.5rem", paddingBottom: "1rem"}}>
                     <li>
-                        <Link id='link' className='sobre' to='/'><a href='#scroll'></a>About</Link>                       
+                        <Link id='link' className='sobre' to='/'>About</Link>                       
                     </li>
                     <li>
                         <Link id='link' className='projetos' to='/projects'>Projects</Link>                  

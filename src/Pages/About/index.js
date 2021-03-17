@@ -22,17 +22,16 @@ export default function About() {
       <Header />
                 
       <div className="back">
-        <section className="center">
             <div>
-                <h2 className='im'>Who I'm: </h2>
+                <h2 className='im'>Who are Renato Cesar: </h2>
                 <p className="who">
                   I'm a FullStack developer, I work with both React-Js to create websites and applications
                   (like this site you are now on) Python, C, MySQL, Flutter, and Java.
                 </p>
                 <p className="who">
                 Studying Information Systems at UFGD a Dourados's university. Since I started as
-              developer, I have been studying and learning more and more, working on projects in several
-              programming languages ​​and producing videos about the most interesting projects
+              developer  I have been studying and learning more and more, working on projects in several
+              programming languages ​​and producing videos about the most interesting ones.
                 </p>
             </div> 
              
@@ -66,7 +65,6 @@ export default function About() {
           <Skills/>
           <hr/>
             <Contact/>
-        </section> 
                            
       </div>
               

@@ -1,5 +1,5 @@
 //Importing React Libs
-import React, { useState }from 'react'
+import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 
@@ -11,7 +11,6 @@ import MyPosts from './Pages/MyPosts';
 // Add all the pages into a switch router system
 //"Switch"  is used to switch between the pages 
 export default function Routes() {
-    const [page,setPage] = useState('About')
     return (
         <BrowserRouter>
             <Switch> 
