@@ -13,17 +13,16 @@ import Footer from './Components/footer/footer';
 // Add all the pages into a switch router system
 //"Switch"  is used to switch between the pages 
 export default function Routes() {
-    return (<>
+    return (
         <BrowserRouter>
             <Header/>
             <Switch> 
-                <Route path='/' exact component={About}/>
+                <Route path='/' exact component={About} />
                 <Route path='/projects' component={Projects} />
                 <Route path='/posts' component={MyPosts} />
                 <Route path='/*' component={About} />
             </Switch>
             <Footer/>
         </BrowserRouter>
-        </>
     );
 }

@@ -5,7 +5,7 @@ import { VscGlobe } from 'react-icons/vsc'
 
 export default function Project(props) {
     /*função de redirecionamento*/
-    let redirect_rep = (link) => {
+    let redirect_to = (link) => {
         window.open(link)
     }   
 
@@ -20,7 +20,7 @@ export default function Project(props) {
                     (<FaGithubSquare
                     className='icon_link'
                     size='2.5rem'
-                    onClick={() => redirect_rep(props.link_git)}
+                    onClick={() => redirect_to(props.link_git)}
                     />)
                     :
                     <div/>
@@ -31,7 +31,7 @@ export default function Project(props) {
                     size='2.5rem'
                     color='#F20F22'
                     className='icon_link'
-                    onClick={() => redirect_rep(props.link_youtube)}
+                    onClick={() => redirect_to(props.link_youtube)}
                     />)
                     :
                     <div/>
@@ -41,7 +41,7 @@ export default function Project(props) {
                     size='2.5rem'
                     color='#006FA5'
                     className='icon_link'
-                    onClick={() => redirect_rep(props.link_page)}
+                    onClick={() => redirect_to(props.link_page)}
                     />)
                     :
                     <div/>

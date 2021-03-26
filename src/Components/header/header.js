@@ -2,11 +2,18 @@ import React from 'react'
 
 import { Link } from 'react-router-dom';
 
-//Importing the background image of the Header
 import back from '../../assets/fundo.png'
 import './style.css'
 
-//função que retorna o cabeçalho inteiro da pagina mais o menu de navegação
+
+
+function  scrollToHeader() {
+    window.scrollTo({
+      top: 850,
+      behavior: "smooth"
+    });
+  }
+
 function Header() {
     return (
         <div className='fundo'>
@@ -17,13 +24,31 @@ function Header() {
             <div >
                 <ul style={{ paddingTop: "0.5rem", paddingBottom: "1rem"}}>
                     <li>
-                        <Link id='link' className='sobre' to='/'>About</Link>                       
+                        <Link 
+                            id='link'
+                            className='sobre' 
+                            to='/' 
+                            onClick={scrollToHeader}
+                            >About
+                        </Link>                       
                     </li>
                     <li>
-                        <Link id='link' className='projetos' to='/projects'>Projects</Link>                  
+                        <Link
+                            id='link'
+                            className='projetos'
+                            to='/projects'
+                            onClick={scrollToHeader}
+                            >Projects
+                        </Link>                  
                     </li>
                     <li>
-                        <Link id='link' className='posts'to='/posts'>Posts</Link>
+                        <Link 
+                            id='link'
+                            className='posts'
+                            to='/posts' 
+                            onClick={scrollToHeader}
+                            >Posts
+                         </Link>
                     </li>
                 </ul>
             </div>
