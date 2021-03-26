@@ -7,18 +7,20 @@ import './style.css'
 
 
 
-function  scrollToHeader() {
-    window.scrollTo({
-      top: 850,
-      behavior: "smooth"
-    });
-  }
 
 function Header() {
+    
+    function  scrollToHeader() {
+        const imageHeight = document.getElementById('headerImage').clientHeight;
+        window.scrollTo({
+            top: imageHeight,
+            behavior: 'smooth',
+        });
+    }
     return (
         <div className='fundo'>
             <div className='zoom'>
-                <img src={back} alt='Renato Cesar'></img>
+                <img src={back} alt='Renato Cesar' itemID={'headerImage'} id={'headerImage'}></img>
             </div>
 
             <div >
@@ -28,7 +30,7 @@ function Header() {
                             id='link'
                             className='sobre' 
                             to='/' 
-                            onClick={scrollToHeader}
+                            onClick={() => scrollToHeader()}
                             >About
                         </Link>                       
                     </li>
@@ -37,7 +39,7 @@ function Header() {
                             id='link'
                             className='projetos'
                             to='/projects'
-                            onClick={scrollToHeader}
+                             onClick={() => scrollToHeader()}
                             >Projects
                         </Link>                  
                     </li>
@@ -46,7 +48,7 @@ function Header() {
                             id='link'
                             className='posts'
                             to='/posts' 
-                            onClick={scrollToHeader}
+                             onClick={() => scrollToHeader()}
                             >Posts
                          </Link>
                     </li>
