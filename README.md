@@ -69,6 +69,6 @@ Inspired by videos from the Lucas Montano channel, I decided to use what I was l
 - [x] Update Github repository
 - [ ] Page indicator on navBar
 - [ ] Iphone Fliquering on change Page problem
-- [ ] Auto Scroll on header
+- [x] Auto Scroll on header
 
 
