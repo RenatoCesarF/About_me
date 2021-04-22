@@ -38,7 +38,7 @@ export default function Projects(){
                                 See more about the project in the Read Me on github. '
                         image={loopyng}
                         link_git='https://github.com/RenatoCesarF/Loopyng'
-                        link_youtube= 'https://www.youtube.com/watch?v=MOxTDfwdxCw&t=75s'
+                        link_youtube= 'https://www.youtube.com/watch?v=MOxTDfwdxCw&t'
                    />
 
                     <Project
@@ -49,7 +49,7 @@ export default function Projects(){
                         the ideas I had for this website. See more on the github repository, and you can watch my video about it too. '
                         image={Renato}
                         link_git = 'https://github.com/RenatoCesarF/About_me'
-                        link_youtube='https://www.youtube.com/watch?v=aXlfmVeJHFs&t=8s'
+                        link_youtube='https://www.youtube.com/watch?v=aXlfmVeJHFs&t'
                     />  
 
                     <Project
