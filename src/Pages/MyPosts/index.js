@@ -12,6 +12,11 @@ export default function MyPosts() {
      
             <div className='back'>
                     <Post
+                        titulo = 'Working on projects while Streaming'
+                        texto = "I always wanna to make Streams, and now I'm doing it 😊. Currently I'm working in a Flutter App, it's going very well. I't cool to talk to outher programmers and explain my ideas, is something that I hope continue doing for some long, you and access my chanel in \n fff "
+                        data ='01/05/2021'
+                    />
+                    <Post
                         titulo= 'Updating this and starting new projecs'
                         texto = 'Today I comeback to this site repository to update somethings, like add responsiveness to smartphones and tablets, adjusting some colors and information and add my newest project to the list of Projects, the GoodVibes Jornal. It is a nextjs site with some news and cool stufs that I founded in the internet. Anyways, I will add somemore things and start a new project involving new languages and chalanges!'
                         data ='20/02/2021'
