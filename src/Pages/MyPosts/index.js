@@ -37,8 +37,10 @@ export default function MyPosts() {
                     />
                     <Post
                         titulo = 'Iniciando em Java e projeto beta finalizado'
-                        texto = 'A faculdade da UEMS está oferecendo um curso de 88 horas sobre Orientação à Objeto com Java, confesso que tenho interesse em conhecer essa linguagem e alguns projetinhos em mente que estarei usando a mesma. Infelizmente os estudos de React terão que ficar para outra hora. Também acabo de finalizar a beta de um dos meus projetos, o Loopyng, veja mais sobre ele nesse vídeo aqui: https://www.youtube.com/watch?v=MOxTDfwdxCw&t=75s'
+                        texto = 'A faculdade da UEMS está oferecendo um curso de 88 horas sobre Orientação à Objeto com Java, confesso que tenho interesse em conhecer essa linguagem e alguns projetinhos em mente que estarei usando a mesma. Infelizmente os estudos de React terão que ficar para outra hora. Também acabo de finalizar a beta de um dos meus projetos, o Loopyng, veja mais sobre ele nesse vídeo aqui:'
                         data = '22/06/2020'
+                        link = "https://www.youtube.com/watch?v=MOxTDfwdxCw&t"
+                        linkText="Youtube"
                     /> 
                     <Post
                         titulo = 'Uma oportunidade de Estágio'
