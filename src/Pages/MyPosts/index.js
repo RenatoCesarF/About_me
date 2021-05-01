@@ -13,7 +13,9 @@ export default function MyPosts() {
             <div className='back'>
                     <Post
                         titulo = 'Working on projects while Streaming'
-                        texto = "I always wanna to make Streams, and now I'm doing it 😊. Currently I'm working in a Flutter App, it's going very well. I't cool to talk to outher programmers and explain my ideas, is something that I hope continue doing for some long, you and access my chanel in \n fff "
+                        texto = "I always wanna to make Streams, and now I'm doing it 😊. Currently I'm working in a Flutter App, it's going very well. I't cool to talk to outher programmers and explain my ideas, is something that I hope continue doing for some long, you and access my chanel in "
+                        link="https://twitch.tv/renatocesarf"
+                        linkText="Twitch"
                         data ='01/05/2021'
                     />
                     <Post
@@ -28,8 +30,10 @@ export default function MyPosts() {
                     />
                     <Post
                         titulo ='Primeiro Game Project'
-                        texto ='Recentemente comecei a trabalhar em uma das minhas antigas ideias de jogo, estou usando a Godot Engine e está sendo uma experiência e tanto. Além de estar implementando todo o jogo sozinho estou também postando DevLogs sobre os processos de criação do jogo no meu canal do youtube, segue o Link: https://youtu.be/nDTOd0dRu90'
+                        texto ='Recentemente comecei a trabalhar em uma das minhas antigas ideias de jogo, estou usando a Godot Engine e está sendo uma experiência e tanto. Além de estar implementando todo o jogo sozinho estou também postando DevLogs sobre os processos de criação do jogo no meu canal do youtube, segue o Link:'
                         data = '10/10/2020'
+                        link="https://youtu.be/nDTOd0dRu90"
+                        linkText="Youtube"
                     />
                     <Post
                         titulo = 'Iniciando em Java e projeto beta finalizado'
