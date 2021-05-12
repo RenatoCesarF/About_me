@@ -12,12 +12,25 @@ import Renato from '../../assets/renato.png'
 import hero from '../../assets/portfolio/bethehero.png'
 import loopyng from '../../assets/portfolio/loopyng.png'
 import goodvibes from '../../assets/portfolio/goodvibesjornal.png'
+import twitchProject from '../../assets/portfolio/twitchProject.png'
 
 export default function Projects(){
     return (
            
             <div className='back'>
 
+                    <Project
+                        description=" I started to develop my personal projects live
+                         on Twitch, as a way to learn and share more, meet other developers and 
+                         publicize my projects. We already created many things during the livestream,
+                        like our own Chat Bot and SoundBoard, even this text was written on Live 😂. 
+                        I decided to start a collaborators page where everyone
+                        that helps us to continue streaming has it's name displayed there. You can check
+                        it out on the link below."
+                        image={twitchProject}
+                        link_page='https://twitch.tv/renatocesarf'
+                        colaborators={true}
+                    />
                     <Project
                         description=' A Next.Js project that tries to bring good vibes for your day,
                                 just happy news. No account, no AI algorithm, just the old jornal thing, 

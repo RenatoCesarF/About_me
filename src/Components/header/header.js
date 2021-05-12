@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom';
-
+import scrollToHeader from '../../utils/scrollToHeader'
 import back from '../../assets/fundo.png'
 import './style.css'
 
@@ -10,13 +10,7 @@ import './style.css'
 
 function Header() {
     
-    function  scrollToHeader() {
-        const imageHeight = document.getElementById('headerImage').clientHeight;
-        window.scrollTo({
-            top: imageHeight,
-            behavior: 'smooth',
-        });
-    }
+
     return (
         <div className='fundo'>
             <div className='zoom'>
@@ -52,15 +46,7 @@ function Header() {
                             >Posts
                          </Link>
                     </li>
-                    <li>
-                        <Link 
-                            id='link'
-                            className='posts'
-                            to='/contributors' 
-                             onClick={() => scrollToHeader()}
-                            >Contributors
-                         </Link>
-                    </li>
+              
                 </ul>
             </div>
 

@@ -10,6 +10,7 @@
     display:flex;
     align-content: center;
     position: relative;
+    padding-bottom:100%; /*when we add the colaborators, this padding will be delited*/
 }
 
 .picpayImage{

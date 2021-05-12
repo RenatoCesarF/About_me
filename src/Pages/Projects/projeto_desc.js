@@ -1,13 +1,17 @@
 import React from 'react'
+import { useHistory } from "react-router-dom";
 
-import { FaGithubSquare, FaYoutube } from 'react-icons/fa'
+import { FaGithubSquare, FaYoutube,FaDonate } from 'react-icons/fa'
 import { VscGlobe } from 'react-icons/vsc'
+import scrollToHeader from '../../utils/scrollToHeader';
 
 export default function Project(props) {
-    /*função de redirecionamento*/
     let redirect_to = (link) => {
         window.open(link)
     }   
+
+    const history = useHistory();
+
 
     return (
         <section>
@@ -46,6 +50,21 @@ export default function Project(props) {
                     :
                     <div/>
                 }
+                {
+                    props.colaborators?
+                    <FaDonate
+                    size='2rem'
+                    color='#07AA85'
+                    className='icon_link'
+                    onClick={() =>{  
+                        history.push("/contributors")
+                        scrollToHeader()
+                        }}
+                    />
+                    :
+                    <div/>
+                }
+             
             </div>
             < hr className='divisoria'/>
         </section>
