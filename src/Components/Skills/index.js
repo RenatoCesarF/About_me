@@ -11,7 +11,7 @@ export default function Skills() {
   return (
   
     <div style={{display:"inline" }} >
-             <div className='area_detect' >
+      <div className='area_detect' >
         <FaPython className='one_comp' size='5rem' id='one_comp' />
             <h2>Python</h2>
       </div>

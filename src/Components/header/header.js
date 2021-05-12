@@ -23,7 +23,7 @@ function Header() {
                 <img src={back} alt='Renato Cesar' itemID={'headerImage'} id={'headerImage'}></img>
             </div>
 
-            <div >
+            <div className='headerOptions'>
                 <ul style={{ paddingTop: "0.5rem", paddingBottom: "1rem"}}>
                     <li>
                         <Link 
@@ -50,6 +50,15 @@ function Header() {
                             to='/posts' 
                              onClick={() => scrollToHeader()}
                             >Posts
+                         </Link>
+                    </li>
+                    <li>
+                        <Link 
+                            id='link'
+                            className='posts'
+                            to='/contributors' 
+                             onClick={() => scrollToHeader()}
+                            >Contributors
                          </Link>
                     </li>
                 </ul>

@@ -12,6 +12,7 @@
 .project_image:hover{
   transform: scale(1.1);
   filter: brightness(110%);
+  
 }
 
 /*-----center-----*/

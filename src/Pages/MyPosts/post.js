@@ -1,4 +1,3 @@
-//this component is used to create a new post at Post page
 import React from 'react'
 import {SiTwitch} from 'react-icons/si'
 import {FaYoutube} from 'react-icons/fa'
@@ -14,12 +13,12 @@ function Post(props) {
             <div>
                 <a href={props.link}>
                     <p className="post_link">
-                        {props.linkText == "Twitch"?
+                        {props.linkText === "Twitch"?
                             (<SiTwitch size={30} color="#613FA0"/>)
                             :
                             null
                         }
-                        {props.linkText == "Youtube"?
+                        {props.linkText === "Youtube"?
                             (<FaYoutube size={30}  color='#F20F22'/>)
                             :
                             null
