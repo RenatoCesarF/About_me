@@ -13,7 +13,7 @@ export default function MyPosts() {
             <div className='back'>
                     <Post
                         titulo= 'Updating this and starting new projecs'
-                        texto = 'Today I comeback to this site repository to update somethings, like add responsiveness to smartphones and tablets, adjusting some colors and information and add my newest project to the list of Projects, the GoodVibes Jornal. It is a nextjs site with some news and cool stufs that I founded in the internet. Anyways, I will add somemore things and start a new project involving new languages and chalanges!'
+                        texto = 'Today I comeback to this site repository to update somethings, like add responsiveness to smartphones and tablets, adjusting some colors and information and add my newest project to the list of Projects, the GoodVibes Journal. It is a nextjs site with some news and cool stufs that I founded in the internet. Anyways, I will add somemore things and start a new project involving new languages and chalanges!'
                         data ='20/02/2021'
                     />
                     <Post

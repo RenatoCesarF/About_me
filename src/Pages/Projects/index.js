@@ -20,13 +20,13 @@ export default function Projects(){
 
                     <Project
                         description=' A Next.Js project that tries to bring good vibes for your day,
-                                just happy news. No account, no AI algorithm, just the old jornal thing, 
+                                just happy news. No account, no AI algorithm, just the old journal thing, 
                                 but with the technology that we have nowadays like funny and cute videos, 
                                 quotes from around the world and more coming soon.
                         '
                         image={goodvibes}
-                        link_git='https://github.com/RenatoCesarF/GoodVibesJornal'
-                        link_page='https://goodvibesjornal.vercel.app'
+                        link_git='https://github.com/RenatoCesarF/GoodVibesJournal'
+                        link_page='https://goodvibesjournal.vercel.app'
                    />
 
                     <Project
