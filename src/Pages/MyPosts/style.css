@@ -19,9 +19,19 @@
 .texto_do_post{
     font-size: 1.2em;
     line-height: 1.4em;
-    text-indent: 1.5vh;
     text-align: justify;
-    text-indent: 5vw;
+    text-indent: 2rem;
     color: #373D3F ;
     margin-right: 1vw;
+}
+
+.post_link{
+    font-size: 1.2em;
+    text-align: justify;
+    color: #373D3F ;
+    margin-right: 1vw;
+    text-decoration: none;
+    margin-top: 2vh;
+    vertical-align:top;
+    vertical-align: text-top;
 }

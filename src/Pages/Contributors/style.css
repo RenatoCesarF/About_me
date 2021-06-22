@@ -1,0 +1,71 @@
+
+.collaborateTitle{
+    font-size:2vw;
+    color: #373D3F;
+    margin-right: 1vw;
+    padding-bottom: 1rem;
+}
+
+.payMethodsDiv{
+    display:flex;
+    align-content: center;
+    position: relative;
+    padding-bottom:100%; /*when we add the colaborators, this padding will be delited*/
+}
+
+.picpayImage{
+    border-radius: 1.4rem;
+    width: 40%;
+    position: relative;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    transition: ease-in-out;
+    -webkit-transition: all 0.2s;
+    display: flex;
+}
+.picpayImage:hover{
+    transform: scale(1.05);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.418);
+
+  }
+.pixImage{
+    border-radius: 1.4rem;
+    width: 40%;
+    position: relative;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    transition: ease-in-out;
+    -webkit-transition: all 0.2s;
+    display: flex;
+}
+
+.pixImage:hover{
+  transform: scale(1.05);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.418);
+}
+
+
+@media only screen and (max-width:825px) {
+    .pixImage{
+        width: 49%;
+        margin: auto;
+    }
+    .picpayImage{
+        width: 49%;
+        margin: auto;
+    }
+    .collaborateTitle{
+        font-size:7vw;
+    }
+
+} 
+
+@media only screen and (max-width:800px) {
+    .collaborateTitle{
+        font-size:6vw;
+    }
+}

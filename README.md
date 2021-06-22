@@ -67,8 +67,8 @@ Inspired by videos from the Lucas Montano channel, I decided to use what I was l
 - [x] SmartPhone port
 - [x] Routes problem
 - [x] Update Github repository
+- [x] Auto Scroll on header
+- [ ] Improve Posts page, and add the possibility to write links for exemple
 - [ ] Page indicator on navBar
-- [ ] Iphone Fliquering on change Page problem
-- [ ] Auto Scroll on header
 
 

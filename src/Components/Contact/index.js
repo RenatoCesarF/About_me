@@ -1,5 +1,5 @@
 import React from 'react'
-
+import copyToClipboard from '../../utils/copyToClipboard'
 import './style.css'
 
 //Importing the icons
@@ -7,19 +7,6 @@ import {MdEmail,RiWhatsappLine } from 'react-icons/all'
 
 
 export default function Contact() {
-
-  //Function to copy my email and open your send email system
-  let Copy = () => {
-    const texto = "re.fbarcellos@hotmail.com";
-    let inputTest = document.createElement("input");
-    inputTest.value = texto;
-    document.body.appendChild(inputTest);
-    inputTest.select();
-    document.execCommand('copy');
-    document.body.removeChild(inputTest);
-    alert("E-mail Copied")
-  }
-
   //Function to redirect you to my contact on whatsapp
   let redirect_to_whatsapp = () => {
     window.open('https://wa.me/5567984582760')
@@ -31,7 +18,7 @@ export default function Contact() {
         <h2 className='titulo'>Contact</h2>
         <form className='form'>
         
-          <div  id='scroll' className='email' onClick={Copy}>
+          <div  id='scroll' className='email' onClick={()=>copyToClipboard("re.fbarcellos@hotmail.com")}>
             <MdEmail size='40px' className='simbol_email'/>
             <a className='text_email' href="mailto:re.fbarcellos@hotmail.com" > E-mail</a>
           </div> 

@@ -12,12 +12,25 @@ import Renato from '../../assets/renato.png'
 import hero from '../../assets/portfolio/bethehero.png'
 import loopyng from '../../assets/portfolio/loopyng.png'
 import goodvibes from '../../assets/portfolio/goodvibesjornal.png'
+import twitchProject from '../../assets/portfolio/twitchProject.png'
 
 export default function Projects(){
     return (
            
             <div className='back'>
 
+                    <Project
+                        description=" I started to develop my personal projects live
+                         on Twitch, as a way to learn and share more, meet other developers and 
+                         publicize my projects. We already created many things during the livestream,
+                        like our own Chat Bot and SoundBoard, even this text was written on Live 😂. 
+                        I decided to start a collaborators page where everyone
+                        that helps us to continue streaming has it's name displayed there. You can check
+                        it out on the link below."
+                        image={twitchProject}
+                        link_page='https://twitch.tv/renatocesarf'
+                        colaborators={true}
+                    />
                     <Project
                         description=' A Next.Js project that tries to bring good vibes for your day,
                                 just happy news. No account, no AI algorithm, just the old journal thing, 
@@ -38,7 +51,7 @@ export default function Projects(){
                                 See more about the project in the Read Me on github. '
                         image={loopyng}
                         link_git='https://github.com/RenatoCesarF/Loopyng'
-                        link_youtube= 'https://www.youtube.com/watch?v=MOxTDfwdxCw&t=75s'
+                        link_youtube= 'https://www.youtube.com/watch?v=MOxTDfwdxCw&t'
                    />
 
                     <Project
@@ -49,7 +62,7 @@ export default function Projects(){
                         the ideas I had for this website. See more on the github repository, and you can watch my video about it too. '
                         image={Renato}
                         link_git = 'https://github.com/RenatoCesarF/About_me'
-                        link_youtube='https://www.youtube.com/watch?v=aXlfmVeJHFs&t=8s'
+                        link_youtube='https://www.youtube.com/watch?v=aXlfmVeJHFs&t'
                     />  
 
                     <Project
