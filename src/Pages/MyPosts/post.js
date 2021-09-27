@@ -1,35 +1,60 @@
 import React from 'react'
 import {SiTwitch} from 'react-icons/si'
-import {FaYoutube} from 'react-icons/fa'
+import {FaYoutube, FaGithubSquare} from 'react-icons/fa'
+
+const LinkName = {
+	YOUTUBE: "Youtube",
+	TWITCH: "Twitch",
+	GITHUB: "GitHub",
+    DEFAULT: "",
+}
+
+function getLinkNameByURL(url){
+    if(url == null) return LinkName.DEFAULT
+    if(url.includes("youtube") || url.includes("youtu.b")){
+        return LinkName.YOUTUBE;
+    }
+    if(url.includes("twitch")){
+        return LinkName.TWITCH;
+    }
+    
+    if(url.includes("github")){
+        return LinkName.GITHUB;
+    }
+    return LinkName.DEFAULT
+}
 
 function Post(props) {
+    const linkName = getLinkNameByURL(props.link);
+ 
     return (
         <div>
-            <h1 className='titulo_post'>{props.titulo}</h1>
+            <h1 className='titulo_post'>{props.tittle}</h1>
             <div>
-                <p className='texto_do_post'>{props.texto}</p>
+                <p className='texto_do_post'>{props.body}</p>
             </div>
-        
+            
             <div>
                 <a href={props.link}>
                     <p className="post_link">
-                        {props.linkText === "Twitch"?
-                            (<SiTwitch size={30} color="#613FA0"/>)
+                     
+                        {
+                            linkName === LinkName.TWITCH?
+                                (<SiTwitch size={30} color="#613FA0"/>)
                             :
-                            null
-                        }
-                        {props.linkText === "Youtube"?
-                            (<FaYoutube size={30}  color='#F20F22'/>)
+                            linkName === LinkName.YOUTUBE?
+                                (<FaYoutube size={30}  color='#F20F22'/>)
                             :
-                            null
-                        }
-                       
-                      
-                        {props.linkText}
+                            linkName === LinkName.GITHUB?
+                                (<FaGithubSquare size={40}  color='#2d2d2d'/>)
+                            :
+                                null
+                         }
+                        
                     </p>
                 </a>
             </div>
-            <footer className="post_date">{props.data} </footer>
+            <footer className="post_date">{props.date} </footer>
             <hr className='linha'/>
         </div>
     )

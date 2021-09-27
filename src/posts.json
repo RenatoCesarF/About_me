@@ -1,0 +1,59 @@
+{
+    "posts":[
+        {
+            "tittle": "Starting in a new job and finishing projects",
+            "body": "After 1 year working in my first job I recebe a awesome oportunity to work in a multinational company. I'm very excited to start working there. /t I'm finishing a lot of projects recently, finish the 8-Bits Sounds, the `What Should I Play` App and more. Current I'm working in more visual projects, like 2D game-development frameworks. I need to add those projects here in this website in the future ",
+            "link": "https://github.com/RenatoCesarF",
+            "date": "27/09/2021"
+        },
+        {
+            "tittle": "Working on projects while Streaming",
+            "body": "I always wanna to make Streams, and now I'm doing it 😊. Currently I'm working in a Flutter App, it's going very well. I't cool to talk to outher programmers and explain my ideas, is something that I hope continue doing for some long, you and access my chanel in ",
+            "link": "https://twitch.tv/renatocesarf",
+            "date": "01/05/2021"
+        },
+        {
+            "tittle": "Updating this and starting new projecs",
+            "body": "Today I comeback to this site repository to update somethings, like add responsiveness to smartphones and tablets, adjusting some colors and information and add my newest project to the list of Projects, the GoodVibes Journal. It is a nextjs site with some news and cool stufs that I founded in the internet. Anyways, I will add somemore things and start a new project involving new languages and chalanges! ",
+            "link": null,
+            "date": "20/02/2021"
+        },
+        {
+            "tittle": "Trabalhando em projetos criativos no meu primeiro emprego",
+            "body": "Após uma das mais excitantes experiências com exercícios de lógica de programação consegui meu primeiro emprego em um time de desenvolvimento aqui da cidade. Estou trabalhando na Dias Tecnologia a quase 4 meses e tem sido uma ótima primeira experiência. Trabalho sozinho em projetos que são um tanto quanto fora do comum, no momento estou trabalhando em um sistema de análise de vídeos que será usado em um aplicativo flutter que também estou construindo, estou adorando a Stack e progredindo rápido. Espero poder compartilhar mais sobre futuramente.",
+            "link": null,
+            "date": "05/11/2020"
+        },
+        {
+            "tittle": "Primeiro Game Project",
+            "body": "Recentemente comecei a trabalhar em uma das minhas antigas ideias de jogo, estou usando a Godot Engine e está sendo uma experiência e tanto. Além de estar implementando todo o jogo sozinho estou também postando DevLogs sobre os processos de criação do jogo no meu canal do youtube, segue o Link:",
+            "link": "https://youtu.be/nDTOd0dRu90",
+            "date": "10/10/2020"
+        },
+        {
+            "tittle": "Iniciando em Java e projeto beta finalizado",
+            "body": "A faculdade da UEMS está oferecendo um curso de 88 horas sobre Orientação à Objeto com Java, confesso que tenho interesse em conhecer essa linguagem e alguns projetinhos em mente que estarei usando a mesma. Infelizmente os estudos de React terão que ficar para outra hora. Também acabo de finalizar a beta de um dos meus projetos, o Loopyng, veja mais sobre ele nesse vídeo aqui:",
+            "link": "https://www.youtube.com/watch?v=MOxTDfwdxCw&t",
+            "date": "22/06/2020"
+        },
+        {
+            "tittle": "Uma oportunidade de Estágio",
+            "body": "Fui selecionado para um estágio (na Empresa Júnior)  não remunerado que faz parte da faculdade, estou muito contente pela oportunidade. Espero aprender muito e ter uma boa primeira experiência com trabalho em equipe, git e desenvolvimento em conjunto.",
+            "link": null,
+            "date": "04/06/2020"
+        },
+        {
+            "tittle": "Parando para aprender mais",
+            "body": "Desde o último post tenho passado maior parte dos dias programando este site que você esta com o que eu sei sobre react, ou seja, 4 parametros dos 100 que o framework oferece, agora estarei parando para aprender o que mais a ferramenta oferece. E assim que aprender talvez aplique aqui e depois siga para o real propósito de aprender React. Foram dias de grande animação desenvolver e ver realmente a coisa funcionando, me sinto produtivo por estar aprendendo tanto. Hoje sera meu último dia mechendo nesse site, depois de hoje irei voltar para o curso do Scrimba e assim que tive mais ideias para implementar aqui estarei voltando.",
+            "link": null,
+            "date": "06/05/2020"
+        },
+        {
+            "tittle": "Este site",
+            "body": "Tive várias ideias de implementação nos últimos dias, entre elas esse site, estarei utilizando a base de react para criar esse site e depois partir para o real motivo de estar aprendendo Desenvolvimento web, motivo esse que não sera revelado tão em breve, apenas quando a ideia estiver no ar. Passarei os próximos dias implementando esse site.",
+            "link": null,
+            "date": "30/04/2020"
+        }
+      
+    ]
+}

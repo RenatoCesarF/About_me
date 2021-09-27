@@ -1,78 +1,35 @@
-import React from 'react'
-
 import './style.css'; 
-
-//Importing the components
+import React from 'react'
 import Contact from '../../Components/Contact/index'
+import ProjectElementModel from './project_element_model'
 
-import Project from './projeto_desc'
-
-//Importing the photos
 import Renato from '../../assets/renato.png'
 import hero from '../../assets/portfolio/bethehero.png'
 import loopyng from '../../assets/portfolio/loopyng.png'
-import goodvibes from '../../assets/portfolio/goodvibesjornal.png'
+import goodvibes from '../../assets/portfolio/goodvibesjournal.png'
 import twitchProject from '../../assets/portfolio/twitchProject.png'
+import eightBitsSounds from '../../assets/portfolio/8Bits-sounds.png'
+const projectsJSON = require("../../projects.json")
+
+let images = [];
+
+images.push(eightBitsSounds,twitchProject,goodvibes,loopyng,Renato,hero)
 
 export default function Projects(){
     return (
-           
-            <div className='back'>
-
-                    <Project
-                        description=" I started to develop my personal projects live
-                         on Twitch, as a way to learn and share more, meet other developers and 
-                         publicize my projects. We already created many things during the livestream,
-                        like our own Chat Bot and SoundBoard, even this text was written on Live 😂. 
-                        I decided to start a collaborators page where everyone
-                        that helps us to continue streaming has it's name displayed there. You can check
-                        it out on the link below."
-                        image={twitchProject}
-                        link_page='https://twitch.tv/renatocesarf'
-                        colaborators={true}
-                    />
-                    <Project
-                        description=' A Next.Js project that tries to bring good vibes for your day,
-                                just happy news. No account, no AI algorithm, just the old journal thing, 
-                                but with the technology that we have nowadays like funny and cute videos, 
-                                quotes from around the world and more coming soon.
-                        '
-                        image={goodvibes}
-                        link_git='https://github.com/RenatoCesarF/GoodVibesJournal'
-                        link_page='https://goodvibesjournal.vercel.app'
-                   />
-
-                    <Project
-                        description=' A program developed in python to replicate a loop station.
-                                The program works through the computer keys, each of which is shown
-                                in leyout it represents a loop-station pedal, that is, it can be recorded in an audio in
-                                each of them and loop it. There are functions still under development, such as:
-                                pause and play the audio metronome, view the microphone graph and so on.
-                                See more about the project in the Read Me on github. '
-                        image={loopyng}
-                        link_git='https://github.com/RenatoCesarF/Loopyng'
-                        link_youtube= 'https://www.youtube.com/watch?v=MOxTDfwdxCw&t'
-                   />
-
-                    <Project
-                        description=' Website developed with React-js to test my skills in WebDevelopment, in addition 
-                        to serving as an online portfolio for disseminating my work as a developer. Inspired by 
-                        Lucas Montano who says it is important to have an "About me" website
-                        to publicize your projects. Until then, it was not possible to implement all
-                        the ideas I had for this website. See more on the github repository, and you can watch my video about it too. '
-                        image={Renato}
-                        link_git = 'https://github.com/RenatoCesarF/About_me'
-                        link_youtube='https://www.youtube.com/watch?v=aXlfmVeJHFs&t'
-                    />  
-
-                    <Project
-                        description='Application made during OmniStak Week, a week of content and classes about React-js and React Native. It aims to bring NGOs closer to possible donors. The application works with a registration, through the Site, by the NGO of one of the cases that it needs to donate. The person who has the app can view these cases
-                        registered and contact the NGO if you wish, that contact can
-                        if done via email or WhatsApp. See more in the github repository'
-                        image={hero}
-                        link_git='https://github.com/RenatoCesarF/be-the-hero'
-                    />
-                    <Contact/> 
+        <div className='back'>
+            {projectsJSON.projects.map((element,index) => {
+                return(<ProjectElementModel
+                    key={index}
+                    description= {element.description}
+                    image={images[index]}
+                    page_link={element.page_link}
+                    github_link= {element.github_link}
+                    youtube_link= {element.youtube_link}
+                    colaborators={element.colaborators}
+                />)
+            })}
+            <Contact/> 
         </div>
     )
 }
