@@ -26,12 +26,13 @@
 }
 
 .post_link{
-    font-size: 1.2em;
     text-align: justify;
-    color: #373D3F ;
     margin-right: 1vw;
+    margin-left: 0vw;
+    width: 40px;
+    padding-left: 0vw;
+    cursor: pointer;
     text-decoration: none;
-    margin-top: 2vh;
-    vertical-align:top;
+    margin-top: 6vh;
     vertical-align: text-top;
 }

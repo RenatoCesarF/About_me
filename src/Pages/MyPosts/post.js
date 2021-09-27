@@ -1,7 +1,7 @@
 import React from 'react'
 import {SiTwitch} from 'react-icons/si'
 import {FaYoutube, FaGithubSquare} from 'react-icons/fa'
-
+import copyToClipboard from '../../utils/copyToClipboard'
 const LinkName = {
 	YOUTUBE: "Youtube",
 	TWITCH: "Twitch",
@@ -35,24 +35,24 @@ function Post(props) {
             </div>
             
             <div>
-                <a href={props.link}>
-                    <p className="post_link">
-                     
-                        {
-                            linkName === LinkName.TWITCH?
-                                (<SiTwitch size={30} color="#613FA0"/>)
-                            :
-                            linkName === LinkName.YOUTUBE?
-                                (<FaYoutube size={30}  color='#F20F22'/>)
-                            :
-                            linkName === LinkName.GITHUB?
-                                (<FaGithubSquare size={40}  color='#2d2d2d'/>)
-                            :
-                                null
-                         }
-                        
-                    </p>
-                </a>
+             
+                <p className="post_link"  onClick={() =>  window.open(props.link)}>
+                    
+                    {
+                        linkName === LinkName.TWITCH?
+                            (<SiTwitch size={30} color="#613FA0"/>)
+                        :
+                        linkName === LinkName.YOUTUBE?
+                            (<FaYoutube size={30}  color='#F20F22'/>)
+                        :
+                        linkName === LinkName.GITHUB?
+                            (<FaGithubSquare size={40}  color='#2d2d2d'/>)
+                        :
+                            null
+                        }
+                    
+                </p>
+              
             </div>
             <footer className="post_date">{props.date} </footer>
             <hr className='linha'/>
