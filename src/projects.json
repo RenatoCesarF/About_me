@@ -7,12 +7,17 @@
             {
                 "type": "github",
                 "redirect": "https://github.com/RenatoCesarF/8-Bits-sounds",
-                "hover_text": "8-Bits-sounds Extension"
+                "hover_text": "8-Bits-sounds Extension Repository"
             },
             {
                 "type": "github",
                 "redirect": "https://github.com/RenatoCesarF/8-Bits-sounds-console-version",
                 "hover_text": "8-Bits-sounds console-version"
+            },
+            {
+                "type": "website",
+                "redirect": "hhttps://marketplace.visualstudio.com/items?itemName=RenatoCesarF.8-bits-sounds",
+                "hover_text": "8-Bits-sounds Extension page"
             }
         ]
     },
@@ -25,6 +30,11 @@
                 "type": "colaborators",
                 "redirect":"https://twitch.tv/renatocesarf",
                 "hover_text": "Check Colaboration page"
+            },
+            {
+                "type": "website",
+                "redirect":"https://twitch.tv/renatocesarf",
+                "hover_text": "live stream page"
             }
         ]
     },
