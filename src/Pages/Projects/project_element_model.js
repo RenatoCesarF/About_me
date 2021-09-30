@@ -18,55 +18,49 @@ export default function ProjectElementModel(props) {
             <p className='project_description'> {props.description}</p>
             
             <div className='links'>
-                {
-                    props.github_link != null?
-                    (<FaGithubSquare
-                    className='icon_link'
-                    size='2.5rem'
-                    onClick={() => redirect_to(props.github_link)}
-                    />)
-                    :
-                    <div/>
-                }
-             
-                {props.youtube_link != null?
-                    (<FaYoutube
-                    size='2.5rem'
-                    color='#F20F22'
-                    className='icon_link'
-                    onClick={() => redirect_to(props.youtube_link)}
-                    />)
-                    :
-                    <div/>
-                    }
-                {props.page_link != null?
-                    (<VscGlobe
-                    size='2.5rem'
-                    color='#006FA5'
-                    className='icon_link'
-                    onClick={() => redirect_to(props.page_link)}
-                    />)
-                    :
-                    <div/>
-                }
-                {
-                    props.colaborators?
-                    <FaDonate
-                    size='2rem'
-                    color='#07AA85'
-                    className='icon_link'
-                    onClick={() =>{  
-                        history.push("/contributors")
-                        scrollToHeader()
-                        }}
-                    />
-                    :
-                    <div/>
-                }
+                {props.links.map((link) => {
+                    return(
+                        <div class="tooltip">
+                            {
+                            link.type == "github"?
+                            <FaGithubSquare
+                                className="icon_link"
+                                size="2.5rem"
+                                onClick={() => redirect_to(link.redirect)}
+                            />: 
+                            link.type == "youtube"?
+                            <FaYoutube
+                                size='2.5rem'
+                                color='#F20F22'
+                                className='icon_link'
+                                onClick={() => redirect_to(link.redirect)}
+                            />:
+                            link.type == "colaborators"?
+                            <FaDonate
+                                size='2rem'
+                                color='#006FA5'
+                                className='icon_link'
+                                onClick={() =>{  
+                                    history.push("/contributors")
+                                    scrollToHeader()
+                                }}
+                            />:
+                            link.type == "website"?
+                            <VscGlobe
+                                size='2.5rem'
+                                color='#006FA5'
+                                className='icon_link'
+                                onClick={() => redirect_to(link.redirect)}
+                            />:
+                            <div/>}
+                            <span class="tooltiptext">{link.hover_text}</span>
+                        </div>
+                    )
+                })}
+          
              
             </div>
             < hr className='divisoria'/>
         </section>
     )
 }
-

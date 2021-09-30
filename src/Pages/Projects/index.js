@@ -23,10 +23,7 @@ export default function Projects(){
                     key={index}
                     description= {element.description}
                     image={images[index]}
-                    page_link={element.page_link}
-                    github_link= {element.github_link}
-                    youtube_link= {element.youtube_link}
-                    colaborators={element.colaborators}
+                    links={element.links}
                 />)
             })}
             <Contact/> 
