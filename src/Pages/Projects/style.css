@@ -2,12 +2,13 @@
 .project_image{
   margin-left: auto;
   margin-right: auto;
-  height: 18vmin;
+  height: 19vmin;
   display: flex;
   position: relative;
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
   align-self: center;
+  margin-bottom: 1vh;
 }
 .project_image:hover{
   transform: scale(1.1);

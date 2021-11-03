@@ -1,4 +1,4 @@
-import './style.css'; 
+import './style.css';
 import React from 'react'
 import Contact from '../../Components/Contact/index'
 import ProjectElementModel from './project_element_model'
@@ -9,24 +9,26 @@ import loopyng from '../../assets/portfolio/loopyng.png'
 import goodvibes from '../../assets/portfolio/goodvibesjournal.png'
 import twitchProject from '../../assets/portfolio/twitchProject.png'
 import eightBitsSounds from '../../assets/portfolio/8Bits-sounds.png'
+import whatShouldIPlay from '../../assets/portfolio/what_should_i_play.png'
 const projectsJSON = require("../../projects.json")
 
 let images = [];
 
-images.push(eightBitsSounds,twitchProject,goodvibes,loopyng,Renato,hero)
+// Essas imagens precisam ser adicionadas na ordem em que os projetos estão dentro do JSON
+images.push(eightBitsSounds, whatShouldIPlay, twitchProject, goodvibes, loopyng, Renato, hero, )
 
-export default function Projects(){
-    return (
-        <div className='back'>
-            {projectsJSON.projects.map((element,index) => {
-                return(<ProjectElementModel
-                    key={index}
-                    description= {element.description}
-                    image={images[index]}
-                    links={element.links}
-                />)
-            })}
-            <Contact/> 
-        </div>
-    )
-}
+export default function Projects() {
+    return ( < div className = 'back' > {
+            projectsJSON.projects.map((element, index) => {
+                    return ( 
+                        < ProjectElementModel
+                            key = { index }
+                            description = { element.description }
+                            image = { images[index] }
+                            links = { element.links }
+                        />)
+                })
+            } <Contact/>
+            </div>
+        )
+    }

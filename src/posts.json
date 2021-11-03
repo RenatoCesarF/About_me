@@ -1,6 +1,12 @@
 {
     "posts":[
         {
+            "tittle": "Future projects",
+            "body": "Now that I'm finishing all my old projects I can focus in new things and projecs. One of those is make more videos about my projects, and educational videos about software architecture (something that i like a lot). Those videos will be in portuguese to contribute to the community I come from. I'm aiming to learn a new language and improve my python skill going deep in AI and machine learning with TenserFlow for example. Another thing that I started to do was a Second Brain using Obsidian.md, it is a very cool idea that inspire me a lot to lear more and more. ",
+            "link": null,
+            "date": "03/11/2021"
+        },
+        {
             "tittle": "Starting in a new job and finishing projects",
             "body": "After 1 year working in my first job I recebe a awesome oportunity to work in a multinational company. I'm very excited to start working there. I'm finishing a lot of projects recently, finish the 8-Bits Sounds, the `What Should I Play` App and more. Current I'm working in more visual projects, like 2D game-development frameworks. I need to add those projects here in this website in the future ",
             "link": "https://github.com/RenatoCesarF",

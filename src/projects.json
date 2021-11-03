@@ -22,13 +22,25 @@
         ]
     },
     {
+        "description": "A Flutter app to show you details and recomendations based in other games. Was used the IGDB (Internet Games Data Base) API to get all the information about the games, the recomendations, websites and ratting. The app was entirely developed in livestream in my Twitch channel. I learn a lot about the Dart language, and Object Orientation. It was one of the best and more fun projects that I made. There still some improvements to do, such as the favorite system and the explore page.",
+        "image_path": "./assets/portfolio/what_should_i_play.png",
+        "page_link": "https://github.com/RenatoCesarF/what_should_i_play",
+        "links":[
+            {
+                "type": "github",
+                "redirect":"https://github.com/RenatoCesarF/what_should_i_play",
+                "hover_text": "Project on GitHub"
+            }
+        ] 
+    },
+    {
         "description": "I started to develop my personal projects live on Twitch, as a way to learn and share more, meet other developers and publicize my projects. We already created many things during the livestream, like our own Chat Bot and SoundBoard, even this text was written on Live 😂. I decided to start a collaborators page where everyone that helps us to continue streaming has it's name displayed there. You can check it out on the link below.",
         "image_path": "./assets/portfolio/twitchProject.png",
         "page_link": "https://twitch.tv/renatocesarf",
         "links":[
             {
                 "type": "colaborators",
-                "redirect":"https://twitch.tv/renatocesarf",
+                "redirect":"https://renatocesar.netlify.app/contributors",
                 "hover_text": "Check Colaboration page"
             },
             {
