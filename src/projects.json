@@ -1,6 +1,6 @@
 {"projects": [
     {
-        "description": "An VS Code extension to play old-video-game soudns when you type. It was an one-week project made on a fork from another extension. All that I did was improve the code, cleaning it; Make my onw sonds and add then to the project. It was simple, but a good exercice to train clean code and refactoring. You can check the code and the extension in the links bellow",
+        "description": "An VS Code extension to play old-video-game sounds when you type. It was an one-week project made on a fork from another extension. All that I did was improve the code, cleaning it; Make my onw sonds and add then to the project. It was simple, but a good exercice to train clean code and refactoring. There is a console version as well, made with python that runs in the background. You can check the code and the extension in the links bellow",
         "image_path": "./assets/portfolio/twitchProject.png",
         "page_link": "https://marketplace.visualstudio.com/items?itemName=RenatoCesarF.8-bits-sounds",
         "links": [

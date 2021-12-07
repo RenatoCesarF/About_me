@@ -19,7 +19,7 @@ export default function About() {
               
       <div className="back">
             <div>
-                <h2 className='im'>Who is Renato Cesar: </h2>
+                <h2 className='im'>Who I am: </h2>
                 <p className="who">
                   I'm a FullStack developer, work with React and Next-Js, Python, MySQL, Flutter, and Java.
                   Have been learning more and more, developing projects in several
