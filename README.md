@@ -68,7 +68,8 @@ Inspired by videos from the Lucas Montano channel, I decided to use what I was l
 - [x] Routes problem
 - [x] Update Github repository
 - [x] Auto Scroll on header
-- [ ] Improve Posts page, and add the possibility to write links for exemple
+- [x] Improve Posts page, and add the possibility to write links for exemple
 - [ ] Page indicator on navBar
+- [ ] Article system
 
 
