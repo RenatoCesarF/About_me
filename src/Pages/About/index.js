@@ -49,14 +49,14 @@ export default function About() {
                 </div>
             
           </div> 
-          <div className='curr' onClick={() => redirect('https://drive.google.com/file/d/1SUgz-X-Qw22qTEaVzztpGLue_ivY3m7S/view?usp=sharing')}>
+          <div className='curr' onClick={() => redirect('https://drive.google.com/file/d/1tiHUoS5fnHmVTyDkDSlnbSiwh1SIDrem/view?usp=sharing')}>
             <FaFileDownload size='20px' className='simbol_down' />
             <h4 className='curriculo'>Resume</h4>
           </div>
 
           <Skills/>
           <hr/>
-            <Contact/>
+          <Contact/>
                            
       </div>
     </div>
