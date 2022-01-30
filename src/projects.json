@@ -16,7 +16,7 @@
             },
             {
                 "type": "website",
-                "redirect": "hhttps://marketplace.visualstudio.com/items?itemName=RenatoCesarF.8-bits-sounds",
+                "redirect": "https://marketplace.visualstudio.com/items?itemName=RenatoCesarF.8-bits-sounds",
                 "hover_text": "8-Bits-sounds Extension page"
             }
         ]
