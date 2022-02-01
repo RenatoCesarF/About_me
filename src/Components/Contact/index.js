@@ -3,7 +3,8 @@ import copyToClipboard from '../../utils/copyToClipboard'
 import './style.css'
 
 //Importing the icons
-import {MdEmail,RiWhatsappLine } from 'react-icons/all'
+import {MdEmail} from 'react-icons/md'
+import { RiWhatsappLine } from 'react-icons/ri'
 
 
 export default function Contact() {

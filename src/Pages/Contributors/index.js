@@ -1,13 +1,12 @@
 import React from 'react'
 import './style.css'; 
-import picpay from '../../assets/picpay.jpg'
-import pix from '../../assets/pix.jpg'
+import picpay from '../../assets/picpay.webp'
+import pix from '../../assets/pix.webp'
 import copyToClipboard from '../../utils/copyToClipboard';
 
 export default function Contributors() {
   return (
     <div>
-              
       <div className="back">
         <h1 className="collaborateTitle">You can collaborate by</h1>
         <div className="payMethodsDiv">

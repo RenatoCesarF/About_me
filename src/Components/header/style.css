@@ -32,7 +32,7 @@ li{
   align-items: center;
   text-align: center;
 }
-li #link:hover {
+li .link:hover {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.274);
   color: white;
@@ -40,7 +40,7 @@ li #link:hover {
   -webkit-transition: all 0.3s;
   transition-duration: 0.3s;
 }
-#link{
+.link{
   transition: ease-in-out;
   -webkit-transition: all 0.3s;
   display: inline-table;

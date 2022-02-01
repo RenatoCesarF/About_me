@@ -1,9 +1,9 @@
 import React from 'react'
 
 //Importing the icons 
-import {FaPython, FaReact } from 'react-icons/fa'
-import {SiNextDotJs, SiFlutter} from 'react-icons/si'
+import { FaPython, FaReact } from 'react-icons/fa'
 import { DiDatabase } from 'react-icons/di'
+import {SiNextdotjs, SiFlutter} from 'react-icons/si'
 
 import './style.css'
 
@@ -22,7 +22,7 @@ export default function Skills() {
       </div>
 
       <div className='area_detect'>
-        <SiNextDotJs className='one_comp' size='5rem' />
+        <SiNextdotjs className='one_comp' size='5rem' />
           <h2>Next</h2>
       </div>
 

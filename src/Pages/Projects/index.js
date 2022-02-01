@@ -3,13 +3,13 @@ import React from 'react'
 import Contact from '../../Components/Contact/index'
 import ProjectElementModel from './project_element_model'
 
-import Renato from '../../assets/renato.png'
-import hero from '../../assets/portfolio/bethehero.png'
-import loopyng from '../../assets/portfolio/loopyng.png'
-import goodvibes from '../../assets/portfolio/goodvibesjournal.png'
-import twitchProject from '../../assets/portfolio/twitchProject.png'
-import eightBitsSounds from '../../assets/portfolio/8Bits-sounds.png'
-import whatShouldIPlay from '../../assets/portfolio/what_should_i_play.png'
+import Renato from '../../assets/renato.webp'
+import hero from '../../assets/portfolio/bethehero.webp'
+import loopyng from '../../assets/portfolio/loopyng.webp'
+import goodvibes from '../../assets/portfolio/goodvibesjournal.webp'
+import twitchProject from '../../assets/portfolio/twitchProject.webp'
+import eightBitsSounds from '../../assets/portfolio/8Bits-sounds.webp'
+import whatShouldIPlay from '../../assets/portfolio/what_should_i_play.webp'
 const projectsJSON = require("../../projects.json")
 
 let images = [];

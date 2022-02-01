@@ -1,5 +1,6 @@
 import React from 'react'
-import {GrLinkedin,FaGithubSquare,FaFileDownload, FaYoutube, FaMedium } from 'react-icons/all'
+import {GrLinkedin} from 'react-icons/gr'
+import {FaGithubSquare,FaFileDownload, FaYoutube, FaMedium } from 'react-icons/fa'
 
 import './style.css'; 
     

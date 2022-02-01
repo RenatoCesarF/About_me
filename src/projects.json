@@ -1,7 +1,7 @@
 {"projects": [
     {
         "description": "An VS Code extension to play old-video-game sounds when you type. It was an one-week project made on a fork from another extension. All that I did was improve the code, cleaning it; Make my onw sonds and add then to the project. It was simple, but a good exercice to train clean code and refactoring. There is a console version as well, made with python that runs in the background. You can check the code and the extension in the links bellow",
-        "image_path": "./assets/portfolio/twitchProject.png",
+        "image_path": "./assets/portfolio/twitchProject.webp",
         "page_link": "https://marketplace.visualstudio.com/items?itemName=RenatoCesarF.8-bits-sounds",
         "links": [
             {
@@ -23,7 +23,7 @@
     },
     {
         "description": "A Flutter app to show you details and recomendations based in other games. Was used the IGDB (Internet Games Data Base) API to get all the information about the games, the recomendations, websites and ratting. The app was entirely developed in livestream in my Twitch channel. I learn a lot about the Dart language, and Object Orientation. It was one of the best and more fun projects that I made. There still some improvements to do, such as the favorite system and the explore page.",
-        "image_path": "./assets/portfolio/what_should_i_play.png",
+        "image_path": "./assets/portfolio/what_should_i_play.webp",
         "page_link": "https://github.com/RenatoCesarF/what_should_i_play",
         "links":[
             {
@@ -35,7 +35,7 @@
     },
     {
         "description": "I started to develop my personal projects live on Twitch, as a way to learn and share more, meet other developers and publicize my projects. We already created many things during the livestream, like our own Chat Bot and SoundBoard, even this text was written on Live 😂. I decided to start a collaborators page where everyone that helps us to continue streaming has it's name displayed there. You can check it out on the link below.",
-        "image_path": "./assets/portfolio/twitchProject.png",
+        "image_path": "./assets/portfolio/twitchProject.webp",
         "page_link": "https://twitch.tv/renatocesarf",
         "links":[
             {
@@ -52,7 +52,7 @@
     },
     {
         "description": "A Next.Js project that tries to bring good vibes for your day, just happy news. No account, no AI algorithm, just the old journal thing, but with the technology that we have nowadays like funny and cute videos, quotes from around the world and more coming soon.",
-        "image_path":"./assets/portfolio/goodvibesjournal.png" ,
+        "image_path":"./assets/portfolio/goodvibesjournal.webp" ,
         "links":[
             {
                 "type": "github",
@@ -68,7 +68,7 @@
     },
     {
         "description": "A program developed in python to replicate a loop station. The program works through the computer keys, each of which is shown in leyout it represents a loop-station pedal, that is, it can be recorded in an audio in each of them and loop it. There are functions still under development, such as: pause and play the audio metronome, view the microphone graph and so on. See more about the project in the Read Me on github.",
-        "image_path":"./assets/portfolio/loopyng.png" ,
+        "image_path":"./assets/portfolio/loopyng.webp" ,
         "youtube_link": "",
         "links":[
             {
@@ -85,7 +85,7 @@
     },
     {
         "description": "Website developed with React-js to test my skills in WebDevelopment, in addition to serving as an online portfolio for disseminating my work as a developer. Inspired by Lucas Montano who says it is important to have an About me website to publicize your projects. Until then, it was not possible to implement all the ideas I had for this website. See more on the github repository, and you can watch my video about it too.",
-        "image_path":"./renato.png" ,
+        "image_path":"./renato.webp" ,
         "youtube_link": "",
         "links":[
             {
@@ -102,7 +102,7 @@
     },
     {
         "description": "Application made during OmniStak Week, a week of content and classes about React-js and React Native. It aims to bring NGOs closer to possible donors. The application works with a registration, through the Site, by the NGO of one of the cases that it needs to donate. The person who has the app can view these cases registered and contact the NGO if you wish, that contact can if done via email or WhatsApp. See more in the github repository",
-        "image_path":"./assets/portfolio/bethehero.png" ,
+        "image_path":"./assets/portfolio/bethehero.webp" ,
         "links":[
             {
                 "type": "github",

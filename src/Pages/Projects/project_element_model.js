@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHistory } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 import { FaGithubSquare, FaYoutube,FaDonate } from 'react-icons/fa'
 import { VscGlobe } from 'react-icons/vsc'
@@ -10,7 +10,7 @@ export default function ProjectElementModel(props) {
         window.open(link)
     }   
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     return (
         <section>
@@ -22,30 +22,30 @@ export default function ProjectElementModel(props) {
                     return(
                         <div class="tooltip">
                             {
-                            link.type == "github"?
+                            link.type === "github"?
                             <FaGithubSquare
                                 className="icon_link"
                                 size="2.5rem"
                                 onClick={() => redirect_to(link.redirect)}
                             />: 
-                            link.type == "youtube"?
+                            link.type === "youtube"?
                             <FaYoutube
                                 size='2.5rem'
                                 color='#F20F22'
                                 className='icon_link'
                                 onClick={() => redirect_to(link.redirect)}
                             />:
-                            link.type == "colaborators"?
+                            link.type === "colaborators"?
                             <FaDonate
                                 size='2rem'
                                 color='#006FA5'
                                 className='icon_link'
                                 onClick={() =>{  
-                                    history.push("/contributors")
+                                    navigate("/contributors")
                                     scrollToHeader()
                                 }}
                             />:
-                            link.type == "website"?
+                            link.type === "website"?
                             <VscGlobe
                                 size='2.5rem'
                                 color='#006FA5'

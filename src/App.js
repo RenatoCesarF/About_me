@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Routes from './routes'
+import WebRoutes from './routes'; 
 
 
 function App() {
   return (
-    <Routes />        
+    <WebRoutes/>        
   );
 }
 

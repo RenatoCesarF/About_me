@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Link } from 'react-router-dom';
 import scrollToHeader from '../../utils/scrollToHeader'
-import back from '../../assets/fundo.png'
+import back from '../../assets/fundo.webp'
 import './style.css'
 
 
@@ -21,8 +21,7 @@ function Header() {
                 <ul style={{ paddingTop: "0.5rem", paddingBottom: "1rem"}}>
                     <li>
                         <Link 
-                            id='link'
-                            className='sobre' 
+                            className='link sobre' 
                             to='/' 
                             onClick={() => scrollToHeader()}
                             >About
@@ -30,8 +29,7 @@ function Header() {
                     </li>
                     <li>
                         <Link
-                            id='link'
-                            className='projetos'
+                            className='link projetos'
                             to='/projects'
                              onClick={() => scrollToHeader()}
                             >Projects
@@ -39,8 +37,7 @@ function Header() {
                     </li>
                     <li>
                         <Link 
-                            id='link'
-                            className='posts'
+                            className='link posts'
                             to='/posts' 
                              onClick={() => scrollToHeader()}
                             >Posts
