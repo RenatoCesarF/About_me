@@ -1,5 +1,4 @@
 import './style.css'; 
-import React from 'react'
 import Post from './post'
 const postsJSON = require("../../posts.json")
     
