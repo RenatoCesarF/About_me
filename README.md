@@ -46,7 +46,7 @@ Inspired by videos from the Lucas Montano channel, I decided to use what I was l
 > React icons 
 
 
-# :newspaper:Pages	
+# :newspaper:pages	
 ## Header
 <img src="https://user-images.githubusercontent.com/62253156/81237256-2a5c9680-8fcd-11ea-91aa-666b7af5981b.png" alt="drawing" width="1000"/>
 
