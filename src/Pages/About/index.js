@@ -50,7 +50,7 @@ export default function About() {
                 </div>
             
           </div> 
-          <div className='curr' onClick={() => redirect('https://drive.google.com/file/d/1qWzEPOcdjgzjFcLCt-n5PjSmvv7YPN-U/view?usp=sharing')}>
+          <div className='curr' onClick={() => redirect('https://drive.google.com/file/d/1kcig1qE2N7A7WagsPS3T0mzMRp2c7z-k/view?usp=share_link')}>
             <FaFileDownload size='20px' className='simbol_down' />
             <h4 className='curriculo'>Resume</h4>
           </div>
